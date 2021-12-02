@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 接口实现为sql的xml文件。此文件应该在resources文件下 -->
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--
+	namespace属性：指定Mapper接口的全类名
+ -->
+<mapper namespace="alltool.mybatis.EmployeeMapper">
+    <!--
+        id属性：指定Mapper接口中方法的方法名
+        resultType属性：指定方法返回值类型的全类名
+     -->
+    <select id="getEmployeeById" resultType="alltool.mybatis.Employee">
+		select id,last_name,email,salary,dept_id deptId
+		from employees where id = #{han}
+	</select>
+
+    <!-- 添加
+        parameterType属性：指定Mapper接口中入参的类型的全类名，该属性可以省略不写
+    -->
+    <insert id="addEmployee" parameterType="alltool.mybatis.Employee">
+		insert into employees(last_name,email,salary,dept_id)
+		values(#{lastName},#{email},#{salary},#{dept.id})
+	</insert>
+
+    <!-- 更新 -->
+    <update id="updateEmployee">
+		update employees
+		set last_name=#{lastName},email=#{email},salary=#{salary},dept_id=#{dept.id}
+		where id=#{id}
+	</update>
+
+    <!-- 删除 -->
+    <delete id="deleteEmployeeById">
+		delete from employees where id = #{id}
+	</delete>
+
+    <!-- 获取所有
+        如果Mapper接口中的返回值是List，那么resultType指定泛型的全类名
+    -->
+    <select id="getEmployees" resultType="alltool.mybatis.Employee">
+		select id,last_name lastName,email,salary,dept_id deptId
+		from employees
+	</select>
+    <!--
+        MyBatis对Mapper接口中的方法入参的处理
+            1.单个参数
+                MyBatis不做任何处理，填充占位符时的key可以任意指定
+            例如：#{任意指定}
+            2.多个参数
+                MyBatis会封装到一个Map中，填充占位符时的key是arg0、arg1...或者param1、param2...
+            例如：#{arg0}、#{arg1}或#{param1}、#{param2}
+
+            3.入参为POJO
+                如果传入的多个参数可以封装成一个POJO对象，那么可以直接传入POJO，
+                此时填充占位符时的key就是POJO的属性名
+            例如：#{lastName}
+            4.入参为Map
+                如果传入的多个参数不可以封装成一个POJO对象，我们可以放到Map中传入到Mapper接口中
+                此时填充占位符时的key就是入参Map中的key
+            例如：#{入参Map中的key}
+     -->
+    <!-- 根据姓名和邮箱获取员工 -->
+    <select id="getEmployeeByLastNameAndEmail" resultType="alltool.mybatis.Employee">
+		select id,last_name lastName,email,salary,dept_id deptId
+		from employees where last_name = #{lastName} and email = #{email}
+	</select>
+
+    <!-- 根据Map获取员工信息 -->
+    <select id="getEmployeeByMap" resultType="alltool.mybatis.Employee">
+		select id,last_name lastName,email,salary,dept_id deptId
+		from employees where last_name = #{l} and email = #{e}
+	</select>
+
+
+    <!--
+        需求一：在查询员工的同时将员工所在的部门也查询出来
+     -->
+    <select id="getEmployeAndDepById" resultMap="myMap">
+		SELECT e.*,d.id d_id,d.name d_name
+		FROM employees e
+		LEFT JOIN departments d
+		ON e.dept_id = d.id
+		WHERE e.id = #{id}
+	</select>
+
+    <!-- 自定义结果集
+        type属性：指定要映射的Mapper接口中方法的返回值的全类名
+        id属性：指定一个唯一的标识以便被引用
+    -->
+    <resultMap type="alltool.mybatis.Employee" id="myMap">
+        <!-- 映射主键
+            column属性：指定数据库中的列名
+            property属性：指定要映射的POJO中的属性名
+        -->
+        <id column="id" property="id"/>
+        <!-- 映射其他列 -->
+        <result column="last_name" property="lastName"/>
+        <result column="email" property="email"/>
+        <result column="salary" property="salary"/>
+        <!-- ①使用级联属性实现映射 -->
+        <!-- 		<result column="d_id" property="dept.id"/> -->
+        <!-- 		<result column="d_name" property="dept.name"/> -->
+        <!-- ②使用association实现联合查询 -->
+        <association property="dept" javaType="alltool.mybatis.Department">
+            <!-- 映射主键 -->
+            <id column="d_id" property="id"/>
+            <!-- 映射其他列 -->
+            <result column="d_name" property="name"/>
+        </association>
+    </resultMap>
+</mapper>

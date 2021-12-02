@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xuexi</groupId>
+    <artifactId>hbase</artifactId>
+    <version>1.0</version>
+
+    <dependencies>
+
+        <!-- 【1】、hbase服务端、客户端依赖（phoenix依赖在spark/fink处） -->
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-server</artifactId>
+            <version>1.3.1</version>
+            <!--<version>1.1.2</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.hbase</groupId>
+            <artifactId>hbase-client</artifactId>
+            <version>1.3.1</version>
+            <!--<version>1.1.2</version>-->
+        </dependency>
+
+        <!-- 【2】、fastjson项目依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+
+        <!-- 【3】、phoenix依赖-->
+        <dependency>
+            <groupId>org.apache.phoenix</groupId>
+            <artifactId>phoenix-core</artifactId>
+            <version>4.11.0-HBase-1.2</version>
+        </dependency>
+    </dependencies>
+</project>

@@ -1,0 +1,35 @@
+1、vim first.job     ## 先用shell脚本创建文件夹
+#start.job
+type=command
+command=touch /opt/module/azkaban/output.txt
+
+2-1、vim second.job       ## java程序写入文件里指定格式的内容
+#azkabanJava.job
+type=javaprocess
+java.class=azkaban.studentUp
+dependencies=first
+classpath=/opt/module/azkaban/jobs/project1/java/*
+
+2-1、打包alltool.azkaban.Shell_Java_Hadoop_Hive模块成jar包上传到/opt/module/azkaban/jobs/project1/java下
+
+3、vim three.job         ## 将java写好的文件上传至hdfs
+#hdfs job
+type=command
+dependencies=second
+command=/opt/module/hadoop-2.7.2/bin/hadoop fs -put /opt/module/azkaban/output.txt /azkaban
+
+4、vim four.job           ## hdfs的文件load进去hive表并读取写到linux本地目录
+#hive job
+type=command
+dependencies=three
+command=/opt/module/hive-1.2.1/bin/hive -f /opt/module/azkaban/jobs/project1/student.sql
+
+4-2、vim /opt/module/azkaban/jobs/project1/student.sql
+use default;
+drop table student;
+create table student(id int, name string)
+row format delimited fields terminated by '\t';
+load data inpath '/azkaban/output.txt' into table default.student;
+insert overwrite local directory '/opt/module/azkaban/jobs/project1/student'
+row format delimited fields terminated by '\t'
+select * from student;

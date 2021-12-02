@@ -27,7 +27,7 @@ public class 算法题 {
 
     // 3.从尾到头打印链表
     public ArrayList<Integer> printListFromTailToHead(ListNode listNode) {
-        ArrayList<Integer> arrayList = new ArrayList<>();
+        ArrayList<Integer> arrayList = new ArrayList<Integer>();
         if (listNode != null) {
             if (listNode.next != null) {
                 arrayList = printListFromTailToHead(listNode.next);

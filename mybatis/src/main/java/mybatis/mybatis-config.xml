@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- 总配置文件，配置数据库链接及Mapper映射文件。此文件应该在resources文件下 -->
+
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 开启驼峰命名规则：可以将数据库中的last_name映射为lastName，不用再sql语句中做别名处理-->
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    
+    <!-- 数据库连接环境的配置 -->
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC" />
+
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis" />
+                <property name="username" value="root" />
+                <property name="password" value="123456" />
+            </dataSource>
+        </environment>
+    </environments>
+    <!-- 引入SQL映射文件,Mapper映射文件 -->
+    <mappers>
+        <!--<mapper resource="EmployeeMapper.xml" />-->
+        <mapper resource="EmployeeMapper.xml" />
+    </mappers>
+</configuration>

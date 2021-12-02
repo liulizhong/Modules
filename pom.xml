@@ -8,8 +8,20 @@
     <artifactId>Modules</artifactId>
     <packaging>pom</packaging>
     <version>1.0</version>
+
     <modules>
         <module>javabase</module>
+        <module>kafka</module>
+        <module>mysqljdbc</module>
+        <module>mybatis</module>
+        <module>redis</module>
+        <module>hadoop</module>
+        <module>elasticsearch</module>
+        <module>azkaban</module>
+        <module>hbase</module>
+        <module>influxdb</module>
+        <module>tdengine</module>
+        <module>flink</module>
     </modules>
 
 
