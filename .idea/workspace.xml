@@ -2,317 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06d68a0c-9dc3-4fd6-a63b-9ccc0f161b13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/azkaban/Shell_Java_Hadoop_Hive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/azkaban/src/main/java/azkaban/Shell_Java_Hadoop_Hive.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elasticsearch/src/main/scala/所有方法/MyESUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/FlinkConsumertoFileOrHdfs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/O1_source_operator_sink_udf_watermark.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/O2_flink_window.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/O3_processfunction_state_checkpoint.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/O4_tableapi.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/BatchWC.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/StreamWC.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/sensor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/AdClickLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/LoginLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/OrderLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/ReceiptLog.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/UserBehavior.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/resources/apache.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求1_实时热门商品top3.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求2_实时流量统计.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求3_UV布隆过滤器统计userid.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求4_分渠道统计用户行为.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求5_广告点击量统计及黑名单过滤.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求6_登陆失败监控报警.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/flink/src/main/java/flink基础/电商项目/需求7_cep登陆失败监控报警.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop/src/main/java/hdfs/HdfsClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop/src/main/java/mapreducewordcount/WcDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop/src/main/java/mapreducewordcount/WcMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hadoop/src/main/java/mapreducewordcount/WcReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/HbaseAPI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/PhoenixUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/mr_hbase_hbase/HbaseMRTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/mr_hbase_hbase/MRTool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/mr_hbase_hbase/ReadFruitMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hbase/src/main/java/hbase/mr_hbase_hbase/WriteFruitMRReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/src/main/java/influxdb/InfluxdbQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/influxdb/target/classes/influxdb/InfluxdbQuery.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/IO流类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/System类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/任务定时管理类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/包装类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/字符串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/数学类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/数组所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/日期类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/正则表达式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/比较类Comparable和Comparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Java常用API/超级父类Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/Lambda表达式/Lambda表达式所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/StreamAPI/流Stream所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/MyPropertiesUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/文件_从windows到Linux复制.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/文件_快速复制文件.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/文件_统计行数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/文件_读取Excel写入Properties文件.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/文件_递归修改名字.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/filetool/高效读取大文件.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/动态代理设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/单例设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/工厂设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/模板设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/生产者和消费者设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/java设计模式/静态代理设计模式.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/反射/反射的所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程/多线程实现方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程/线程安全问题_售票.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程/线程通信问题_多生产者多消费者.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/annotation/HideAnn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/annotation/HideCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/annotation/HideImg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/collection/ExtCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/file/BigFileReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/file/IFileHandle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/file/TestBigFileRead.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/image/Images.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/Base64s.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/Checks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/Dates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/IdCards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/LogFormats.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/Randoms.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/多线程解析大文件/pub/Strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/小设计/Cardioid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/异常/异常.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/枚举和注解/枚举15版本前.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/枚举和注解/枚举15版本后.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/枚举和注解/自定义注解.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/二叉树_遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/排序_冒泡.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/排序_归并排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/排序_快速排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/排序_插入排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/排序_选择排序.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/查找_二分.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/查找_顺序查找.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/环形队列_数组模拟.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/稀疏数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/链表_单向环形链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/链表_单向链表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/链表_双向链表增删改查.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法java/队列_单向队列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/排序_冒泡排序.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/排序_归并排序.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/排序_快速排序.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/排序_插入排序.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/排序_选择排序.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/查找_二分.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_二叉树.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_单链表.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_双链表.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_哈希表.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_栈.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_环形队列_数组.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_稀疏数组.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/结构_队列_数组.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/算法scala/递归_迷宫.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__CS一对一简单示例/客户端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__CS一对一简单示例/服务器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多个客户端上传文件/客户端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多个客户端上传文件/服务端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多个客户端发单词逆转返回/客户端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多个客户端发单词逆转返回/服务端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多人聊天/Code.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多人聊天/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多人聊天/客户端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/TCP编程__多人聊天/服务器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/UDP变成__简单示例/发送端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/UDP变成__简单示例/接收端.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/网络编程/网络编程所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/java/集合/集合类.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/src/main/resources/condition.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/Game.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/IO流类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/MyStudents.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/System类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/任务定时管理类$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/任务定时管理类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/包装类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/字符串.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/数学类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/数组所有方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/日期类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/正则表达式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/比较类Comparable和Comparator$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/比较类Comparable和Comparator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Java常用API/超级父类Object.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Lambda表达式/Lambda表达式所有方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Lambda表达式/MyTools.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/Lambda表达式/Teacher.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/StreamAPI/流Stream所有方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/java/point1_10.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/剑指Offer算法题/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/剑指Offer算法题/TreeNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/剑指Offer算法题/数据结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/剑指Offer算法题/算法题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/力扣算法题/ListNode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/力扣算法题/数据结构.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/力扣算法题/算法题.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/aa面试题/力扣算法题/验算算法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/condition.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/BufferedRandomAccessFile.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/MyPropertiesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/文件_从windows到Linux复制.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/文件_快速复制文件.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/文件_统计行数.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/文件_读取Excel写入Properties文件.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/文件_递归修改名字.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/filetool/高效读取大文件.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/CalTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Houseware.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Hungry.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Hungry2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/IGoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/IUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Lazy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/MyCalTime.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/MyInvocationHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/MySQLVersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/MySql.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/NewIGoods.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/NewIUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/NewMySQLVersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/NewOracleVersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Oracle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/OracleVersion.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Proxy.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Saler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/SimpleFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/SqlServer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/TV.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/UserManager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/Worker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/动态代理设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/单例设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/工厂设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/模板设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/生产者和消费者设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/java设计模式/静态代理设计模式.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/反射/Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/反射/Singleton.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/反射/反射的所有方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/Cook.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/MyRunnable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/TicketService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/Waiter.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/Window.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/Workbench.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/多线程实现方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/线程安全问题_售票.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程/线程通信问题_多生产者多消费者.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/annotation/HideAnn.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/annotation/HideCollection.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/annotation/HideImg.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/collection/ExtCollections.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/BigFileReader$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/BigFileReader$Builder.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/BigFileReader$SliceReaderTask.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/BigFileReader$StartEndPair.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/BigFileReader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/IFileHandle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/file/TestBigFileRead.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/image/Images.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/Base64s.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/Checks.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/Dates.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/IdCards$GenderEnum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/IdCards.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/LogFormats$ObjectBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/LogFormats.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/Randoms.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/多线程解析大文件/pub/Strings.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/小设计/Cardioid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/异常/异常.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/异常/自定义异常.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/MyAnnotation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/MyClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/Season.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/SubClass.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/Week.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/枚举15版本前.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/枚举15版本后.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/枚举和注解/自定义注解.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/算法java/排序_冒泡排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/算法java/排序_选择排序.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/算法java/查找_二分查找.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__CS一对一简单示例/客户端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__CS一对一简单示例/服务器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/FileUploadThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/客户端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/服务端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/ClientMessageThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/客户端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/服务端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/ClientMessageThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/Code.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/Message.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/ReceiveThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/SendThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/客户端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/TCP编程__多人聊天/服务器.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/UDP变成__简单示例/发送端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/UDP变成__简单示例/接收端.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/网络编程/网络编程所有方法.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/javabase/target/classes/集合/集合类.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/基础所有方法/生产者.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/src/main/java/生产者.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/src/main/命令.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/Department.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/EmployeeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/EmployeeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/TestEmPer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/mybatis-3-config.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/mybatis-3-mapper.dtd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mybatis/src/main/java/mybatis/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/druid工具类/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/druid工具类/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/druid工具类/MySQL所有方法.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/druid工具类/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/my-linux.cnf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/mysql/普通JDBC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/oracle/druid工具类/DBUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/oracle/druid工具类/OracleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/oracle/druid工具类/TB_EMP_ATTENDTIMERULE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/oracle/druid工具类/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysqljdbc/src/main/java/oracle/普通OJdbc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/redis/JedisClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/redis/JedisPooltool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdengine/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdengine/src/main/java/tdengine/KafkaToTDengine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tdengine/src/main/java/tdengine/opc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabase/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/javabase/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabase/src/main/java/aa面试题/剑指Offer算法题/算法题.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabase/src/main/java/aa面试题/剑指Offer算法题/算法题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/javabase/src/main/java/aa面试题/力扣算法题/算法题.java" beforeDir="false" afterPath="$PROJECT_DIR$/javabase/src/main/java/aa面试题/力扣算法题/算法题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -395,12 +85,13 @@
     <session id="569818683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.32" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -434,7 +125,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -479,6 +170,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -571,7 +265,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -584,12 +277,13 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638448879265" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638453556187" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mysqljdbc/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -771,7 +465,8 @@
       <workItem from="1637675436137" duration="919000" />
       <workItem from="1637764745053" duration="1108000" />
       <workItem from="1638337843307" duration="1540000" />
-      <workItem from="1638447534400" duration="1343000" />
+      <workItem from="1638447534400" duration="3046000" />
+      <workItem from="1638503993166" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary="first create project">
       <created>1629703273415</created>
@@ -787,7 +482,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629704346280</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first add .">
+      <created>1638448884891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638448884891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -823,12 +525,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="179230000" />
+    <option name="totallyTimeSpent" value="181983000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2585288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -843,7 +545,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
@@ -1093,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
