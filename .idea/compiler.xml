@@ -7,13 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="1_javabase" />
         <module name="azkaban" />
         <module name="elasticsearch" />
         <module name="flink" />
         <module name="hadoop" />
         <module name="hbase" />
         <module name="influxdb" />
-        <module name="javabase" />
         <module name="kafka" />
         <module name="mybatis" />
         <module name="mysqljdbc" />

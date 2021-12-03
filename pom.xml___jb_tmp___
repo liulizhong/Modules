@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.xuexi</groupId>
+    <artifactId>Modules</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0</version>
+
+    <modules>
+        <module>javabase</module>
+        <module>kafka</module>
+        <module>mysqljdbc</module>
+        <module>mybatis</module>
+        <module>redis</module>
+        <module>hadoop</module>
+        <module>elasticsearch</module>
+        <module>azkaban</module>
+        <module>hbase</module>
+        <module>influxdb</module>
+        <module>tdengine</module>
+        <module>flink</module>
+    </modules>
+    
+    <!--
+    Personal access tokens
+
+    Tokens you have generated that can be used to access the GitHub API.
+
+    Make sure to copy your personal access token now. You won’t be able to see it again!
+     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
+     -->
+
+
+</project>
