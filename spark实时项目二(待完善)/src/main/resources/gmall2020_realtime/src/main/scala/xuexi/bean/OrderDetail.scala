@@ -1,0 +1,23 @@
+//package 项目二实时项目.gmall2020-realtime.src.main.scala.xuexi.bean
+
+/**
+  * Author: lizhong.liu
+  * Date: 2020/9/19
+  * Desc: 订单明细样例类
+  */
+case class OrderDetail(
+                        id: Long,
+                        order_id:Long,
+                        sku_id: Long,
+                        order_price: Double,
+                        sku_num:Long,
+                        sku_name: String,
+                        create_time: String,
+
+                        var spu_id: Long,     //作为维度数据 要关联进来
+                        var tm_id: Long,
+                        var category3_id: Long,
+                        var spu_name: String,
+                        var tm_name: String,
+                        var category3_name: String)
+

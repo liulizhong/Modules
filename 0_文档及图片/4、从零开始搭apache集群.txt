@@ -1,0 +1,315 @@
+1. 安装好linux，虚拟机准备(小韩linux里VMWare安装、CentOS安装)
+	硬盘50G 内存4G cpu 6*2 2*2(我这里是一个4*2两个2*2)
+	/boot 200M
+	/swap 2G
+	/ 全部
+
+2. *安装VMTools
+	虚拟机点击安装VMwaretools
+	将VMwaretools-9.6.2-1688356.tar.gz文件拖拽到桌面解压到此处
+	终端用“./vmware-install.pl”命令来运行该安装程序一路回车
+	重新启动即可
+
+3. 关闭防火墙(终端命令行执行)
+    sudo service iptables stop
+    sudo chkconfig iptables off
+	sudo chkconfig --list iptables
+
+4. 创建一个一般用户atguigu并设置密码(终端命令行执行，密码是输入用户名后弹出输入密码)
+    useradd atguigu
+    passwd atguigu
+
+5. 在/opt目录下创建两个文件夹module和software，并把所有权赋给atguigu
+    mkdir /opt/module /opt/software
+    chown atguigu:atguigu /opt/module /opt/software
+
+6. 配置这个用户为sudoers
+    vim /etc/sudoers
+    在
+	root    ALL=(ALL)       ALL    下面添加
+	liulizhong  ALL=(ALL)       NOPASSWD:ALL
+    保存时wq!强制保存
+
+7. 配置/etc/hosts
+    vim /etc/hosts
+    在文件后追加
+192.168.1.100   hadoop100
+192.168.1.101   hadoop101
+192.168.1.102   hadoop102
+192.168.1.103   hadoop103
+192.168.1.104   hadoop104
+192.168.1.105   hadoop105
+192.168.1.106   hadoop106
+192.168.1.107   hadoop107
+192.168.1.108   hadoop108
+192.168.1.109   hadoop109
+
+（每克隆一台都需要做一遍8-10，也可执行下面的分发脚本步骤）
+8. 设置静态IP，改主机名
+    编辑vim /etc/sysconfig/network-scripts/ifcfg-eth0
+    改成
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+BOOTPROTO=static
+NAME="eth0"
+IPADDR=192.168.1.101
+PREFIX=24
+GATEWAY=192.168.1.2
+DNS1=192.168.1.2
+
+9. 改主机名
+    vim /etc/sysconfig/network
+    改HOSTNAME字段
+
+//新虚拟机，不用第十步
+10. 改网卡脚本文件
+    vim /etc/udev/rules.d/70-persistent-net.rules
+    第一行删掉
+    第二行最后 NAME="eth1" 改成 NAME="eth0"
+
+
+11. 重启可用后关机，快照，克隆。从这里开始要以一般用户登陆
+	方法一、克隆的虚拟机改IP等操作（8-10）
+		1、克隆后改静态IP --> 2、改主机名vim /etc/sysconfig/network -->
+		3、改网卡脚本文件vim /etc/udev/rules.d/70-persistent-net.rules
+		第一行删掉 第二行 最后 NAME="eth1" 改成 NAME="eth0"
+	方法二、可搞脚本执行vim newhosts，在每台机器上执行一遍脚本输入参数
+#!/bin/bash
+#获取自己的网段
+lan=`ifconfig | grep Bcast | cut -d . -f 3`
+cat <<EOF > /etc/sysconfig/network-scripts/ifcfg-eth0
+DEVICE=eth0
+TYPE=Ethernet
+ONBOOT=yes
+BOOTPROTO=static
+IPADDR=192.168.$lan.$1
+PREFIX=24
+GATEWAY=192.168.$lan.2
+DNS1=192.168.$lan.2
+NAME=eth0
+EOF
+#替换主机名，替换为Hadooop$1
+sed -i "s/HOSTNAME=.*/HOSTNAME=hadoop$1/g" /etc/sysconfig/network
+#改网卡脚本
+sed -i '/eth0/d' /etc/udev/rules.d/70-persistent-net.rules
+sed -i 's/eth1/eth0/g' /etc/udev/rules.d/70-persistent-net.rules
+
+//以下过程是搭集群全过程
+12. 搞一个分发脚本
+    cd ~
+    vim xsync
+    内容如下：
+#!/bin/bash
+#1 获取输入参数个数，如果没有参数，直接退出
+pcount=$#
+if ((pcount==0)); then
+echo no args;
+exit;
+fi
+
+#2 获取文件名称
+p1=$1
+fname=`basename $p1`
+echo fname=$fname
+
+#3 获取上级目录到绝对路径
+pdir=`cd -P $(dirname $p1); pwd`
+echo pdir=$pdir
+
+#4 获取当前用户名称
+user=`whoami`
+
+#5 循环
+for((host=101; host<104; host++)); do
+		echo ------------------- hadoop$host --------------
+		rsync -av $pdir/$fname $user@hadoop$host:$pdir
+done
+		-->然后
+		chmod +x xsync
+
+		source /etc/profile		课件没有，自己做题错误发现的
+
+		sudo cp xsync /bin
+
+		sudo xsync /bin/xsync
+
+
+13. 配置免密登陆
+
+        1. 生成密钥对
+        ssh-keygen -t rsa 三次回车
+
+        2. 发送公钥到本机
+        ssh-copy-id hadoop101 输入一次密码
+
+        3. 分别ssh登陆一下所有虚拟机,让他们认识一下
+        ssh hadoop102
+        exit
+        ssh hadoop103
+        exit
+        ssh hadoop104
+        exit
+
+        4. 把/home/atguigu/.ssh 文件夹发送到集群所有服务器
+        xsync /home/atguigu/.ssh
+
+		5.各个测试一下
+		ssh hadoop102
+
+//备注：此时虚拟机不能上网，需改网管配置，还需window主机上配置虚拟机默认网关(详见《linux第五章》)
+14. 在一台机器上安装Java和Hadoop，并配置环境变量，并分发到集群其他机器
+        1. 拷贝文件到/opt/software，两个tar包
+        2. tar -zxf h"+tab" -C /opt/module
+        3. tar -zxf j"+tab" -C /opt/module
+        4. sudo vim /etc/profile
+        在文件末尾添加
+#JAVA_HOME
+export JAVA_HOME=/opt/module/jdk1.8.0_144
+export PATH=$PATH:$JAVA_HOME/bin
+
+#HADOOP_HOME
+export HADOOP_HOME=/opt/module/hadoop-2.7.2
+export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+        保存
+        5. source /etc/profile
+
+        6. sudo xsync /etc/profile
+
+        7. 在其他机器分别执行让配置生效：source /etc/profile
+
+###所有配置文件都在$HADOOP_HOME/etc/hadoop
+15. 首先配置hadoop-env.sh,yarn-env.sh,mapred-env.sh文件,配置Java_HOME
+    在每个文件第二行添加 export JAVA_HOME=/opt/module/jdk1.8.0_144
+
+16. 配置Core-site.xml
+
+<!-- 指定HDFS中NameNode的地址 -->
+<property>
+	<name>fs.defaultFS</name>
+	<value>hdfs://hadoop102:9000</value>
+</property>
+
+<!-- 指定Hadoop运行时产生文件的存储目录 -->
+<property>
+	<name>hadoop.tmp.dir</name>
+	<value>/opt/module/hadoop-2.7.2/data/tmp</value>
+</property>
+
+17. 配置hdfs-site.xml
+<!-- 数据的副本数量 -->
+<property>
+	<name>dfs.replication</name>
+	<value>3</value>
+</property>
+<!-- 指定Hadoop辅助名称节点主机配置 -->
+<property>
+	  <name>dfs.namenode.secondary.http-address</name>
+	  <value>hadoop104:50090</value>
+</property>
+
+18. 配置yarn-site.xml
+
+<!-- Site specific YARN configuration properties -->
+<!-- Reducer获取数据的方式 -->
+<property>
+		<name>yarn.nodemanager.aux-services</name>
+		<value>mapreduce_shuffle</value>
+</property>
+
+<!-- 指定YARN的ResourceManager的地址 -->
+<property>
+	<name>yarn.resourcemanager.hostname</name>
+	<value>hadoop103</value>
+</property>
+<!-- 日志聚集功能使能 -->
+<property>
+	<name>yarn.log-aggregation-enable</name>
+	<value>true</value>
+</property>
+
+<!-- 日志保留时间设置7天 -->
+<property>
+	<name>yarn.log-aggregation.retain-seconds</name>
+	<value>604800</value>
+</property>
+
+19. 配置mapred-site.xml.template改名为mapred-site.xml
+    <property>
+        <name>mapreduce.framework.name</name>
+        <value>yarn</value>
+    </property>
+    <!-- 历史服务器端地址 -->
+    <property>
+        <name>mapreduce.jobhistory.address</name>
+        <value>hadoop104:10020</value>
+    </property>
+    <!-- 历史服务器web端地址 -->
+    <property>
+        <name>mapreduce.jobhistory.webapp.address</name>
+        <value>hadoop104:19888</value>
+    </property>
+
+    启动历史服务器：mr-jobhistory-daemon.sh start historyserver
+
+20. 配置Slaves文件
+hadoop102
+hadoop103
+hadoop104
+
+21. 分发配置文件
+    xsync /opt/module/hadoop-2.7.2/etc
+
+
+22. 格式化Namenode 在hadoop102
+    hdfs namenode -format
+
+23. 启动hdfs
+    start-dfs.sh
+
+24. 在配置了Resourcemanager机器上执行
+    在Hadoop103上启动start-yarn.sh
+
+25
+    mkdir input
+    vim input/input
+    hadoop fs -put input /
+    hadoop jar share/hadoop/mapreduce/hadoop-mapreduce-examples-2.7.2.jar wordcount /input /output
+
+26 关 stop-dfs.sh stop-yarn.sh
+
+27 单点启动
+	hadoop-daemon.sh  start / stop  namenode / datanode / secondarynamenode
+	yarn-daemon.sh  start / stop  resourcemanager / nodemanager
+	mr-jobhistory-daemon.sh start historyserver
+
+如果集群出了问题
+    stop-dfs.sh
+    cd $HADOOP_HOME
+    rm -rf data logs（每个节点都删除）
+    回到22
+
+28 时间同步设置
+	检查ntp是否安装
+	rpm -qa|grep ntp
+	1、授权：各个网段可以在此机上查询时间：vi /etc/ntp.conf
+	#restrict 192.168.1.0 mask 255.255.255.0 nomodify notrap 中的#去掉
+	2、修改：下面4行前面加#注释掉
+		server 0.centos.pool.ntp.org iburst
+		server 1.centos.pool.ntp.org iburst
+		server 2.centos.pool.ntp.org iburst
+		server 3.centos.pool.ntp.org iburst
+	3、添加：
+		server 127.127.1.0
+		fudge 127.127.1.0 stratum 10
+	4、修改增加行：vim /etc/sysconfig/ntpd
+		SYNC_HWCLOCK=yes
+	5、启动设置开机自启：
+		service ntpd start
+		chkconfig ntpd on
+	6、设置获取时间：sudo crontab -e 后增加行其他用户都执行
+		*/10 * * * * /usr/sbin/ntpdate hadoop101
+	7、检验时间准确性
+		date -s "2017-9-11 11:11:11"
+		date
+29 待补充

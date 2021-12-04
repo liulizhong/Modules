@@ -7,20 +7,57 @@
     <groupId>com.xuexi</groupId>
     <artifactId>kafka</artifactId>
     <version>1.0</version>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>6</source>
+                    <target>6</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
-<dependencies>
-    <!-- 【1】、Kafka消费者和生产者导包 -->
-    <dependency>
-        <groupId>org.apache.kafka</groupId>
-        <artifactId>kafka-clients</artifactId>
-        <version>0.11.0.0</version>
-        <!--<version>0.10.1.0</version>-->
-    </dependency>
-    <!-- Kafka监听器导包 -->
-    <dependency>
-        <groupId>org.apache.kafka</groupId>
-        <artifactId>kafka_2.12</artifactId>
-        <version>0.11.0.0</version>
-    </dependency>
-</dependencies>
+    <dependencies>
+        <!-- 【1】、Kafka消费者和生产者导包 -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-clients</artifactId>
+            <version>0.11.0.0</version>
+            <!--<version>0.10.1.0</version>-->
+        </dependency>
+        <!-- Kafka监听器导包 -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.12</artifactId>
+            <version>0.11.0.0</version>
+        </dependency>
+        <!-- 【10】、redis导入 jedis 依赖 -->
+        <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- 【22】、Spark-Streaming对接Kafka的依赖 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming-kafka-0-10_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <!-- 【21】、Spark-Streaming 依赖 -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_2.11</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+        <!-- 【24】、spark项目依赖 -->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.47</version>
+        </dependency>
+    </dependencies>
 </project>

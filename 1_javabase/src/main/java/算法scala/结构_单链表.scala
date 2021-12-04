@@ -1,5 +1,6 @@
 package 算法scala
 
+import util.control.Breaks._
 /*
   数据结构和算法 -- 单链表
   */

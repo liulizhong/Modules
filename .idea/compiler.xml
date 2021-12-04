@@ -13,11 +13,15 @@
         <module name="flink" />
         <module name="hadoop" />
         <module name="hbase" />
+        <module name="hbase离线项目一" />
         <module name="influxdb" />
         <module name="kafka" />
         <module name="mybatis" />
         <module name="mysqljdbc" />
         <module name="redis" />
+        <module name="spark" />
+        <module name="spark实时项目二" />
+        <module name="springbootswagger" />
         <module name="tdengine" />
       </profile>
     </annotationProcessing>

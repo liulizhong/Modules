@@ -10,18 +10,22 @@
     <version>1.0</version>
 
     <modules>
-        <module>javabase</module>
-        <module>kafka</module>
-        <module>mysqljdbc</module>
-        <module>mybatis</module>
-        <module>redis</module>
-        <module>hadoop</module>
-        <module>elasticsearch</module>
+        <module>1_javabase</module>
         <module>azkaban</module>
+        <module>elasticsearch</module>
+        <module>flink</module>
+        <module>hadoop</module>
         <module>hbase</module>
         <module>influxdb</module>
+        <module>kafka</module>
+        <module>mybatis</module>
+        <module>mysqljdbc</module>
+        <module>redis</module>
+        <module>spark</module>
+        <module>springbootswagger</module>
         <module>tdengine</module>
-        <module>flink</module>
+        <module>hbase离线项目一</module>
+        <module>spark实时项目二(待完善)</module>
     </modules>
     <!--
     Personal access tokens

@@ -1,0 +1,579 @@
+1、数组
+<!--
+    (1) Arrays.binarySearch(一维数组名，要查找的值value)：  返回是下标，要求被查找的一维数组必须是有序的，否则结果是错误的
+    (2) Arrays.copyOf(原一维数组名，新数组的长度)：  得到一个新的数组，需要接收，新数组的长度可以<,>,=原数组的长度，从原数组的[0]开始复制
+    (3) Arrays.copyOfRange(原一维数组名, from ,to)：  得到一个新的数组，需要接收，新数组的长度可以<,>,=原数组的长度，从原数组的[from]开始复制
+            from的值必须在原数组的下标范围内，to的值可以在原数组的下标范围外，新数组的长度是to - from，右边不包含！
+    (4) Arrays.sort(一维数组名)：  实现从小到大排序
+    (5) Arrays.toString(一维数组名)：  把一维数组的元素，拼接为一个字符串，[元素1，元素2，...]
+    (6) Arrays.fill(一维数组名，填充的值value)：  把一维数组的每一个元素都填充为value，之前有的元素也替换，和sort一样单列一行就行，不用接收
+    (7) Arrays.fill(一维数组名，from，to， 填充的值value)：  把一维数组的[from,to)的元素都填充为value，右边边界不包含。左右都不能越界
+    (8) System.arraycopy(一维数组名，复制的起始位置，目标一维数组名，粘贴过来的起始位置，复制长度)，删除下标index元素：System.arraycopy(team,index+1,team,index, length-index-1);
+    (9) Arrays.asList(1, 2, "hello", "world", "java")：  返回一个List集合  List<? extends Serializable>  ，只读的，不可更改了
+-->
+2、Object
+<!--
+    （1） public boolean equals(Object obj)：做比较。区别：==和equals
+            如果子类没重写equals()方法，那么Object默认的equals方法的实现，和“==”是一样的。
+            如果子类希望equals()比较的不是对象的地址，而是其他信息，例如：属性的值等，那么就要重写equals方法。例如：String等都是重写了equals方法
+    （2） public int hashCode()：返回哈希值，例子用int接受的，equals和hashCode方法一般形影不离，总是同时被重写
+    （3） public Class getClass()：返回某个对象的运行时类型（个人理解包名.属性/类）
+    （4） protected void finalize()：方法名object子类：这个方法是由GC（垃圾回收程序）调用，不是由程序员调用。
+            System.gc();//这个通知垃圾回收器过来回收，但是实际什么时候来，还要看他自己的安排
+    （5） public String toString()：   //打印输出方法sout调用
+    （6） <clint>         //类静态加载方法
+    （7） <init>          //类初始化方法
+    (8) Comparable<T>   //自然比较规则、默认比较规则，一般类继承它，然后重写 comparaTo() 即可完成定制比较
+    (9) comparaTo()     //Comparable的比较规则
+    (10) Comparator<T>  //定制比较器，抽象方法compare
+    (11) compare        //Comparator的比较规则
+-->
+3、包装类
+<!--
+    （1） new Integer(int的值)：
+    （2） Integer.parseInt(字符串)：将字符串转化为数字
+    （3） Integer.valueOf(字符串)：将字符串转化为数字
+    （4） String.valueOf(int的值)：将int值转为字符串
+    （5） Integer.MAX_VALUE、Integer.MIN_VALUE：Integer类型最大最小值
+    （6） Integer.toHexString(125)：//十进制转成十六进制
+    （7） Integer.toOctalString(125)：//十进制转成八进制
+    （8） Integer.toBinaryString(125)：//十进制转成二进制
+    （9） Character.toUpperCase(字符)：//字符转成大写
+    （10） Character.toLowerCase(字符)：//字符转成小写
+-->
+4、字符串
+<!--
+    一、字符串操作
+        (1) length()：求字符串的长度			//String s = null； s.length();//空指针异常
+        (2) trim()：去掉前后的所有空格（包括Tab键空白符），中间的不会去掉，后期常用
+        (3) equals：比较字符串的字符内容，严格区分大小写，==是比较对象地址
+        (4) equalsIgnoreCase：比较字符串的字符内容，忽略大小写
+        (5) isEmpty()：是否是空字符串
+                 str == null  或  "".equals(str)  或  str.isEmpty()	//红色的方法最安全，因为不会报空指针异常，要是能确认非空就都可以用
+        (6) toUpperCase()：转大写	//字符串一旦改变就换了对象了，应该拿一个变量接收一下，或者赋给自己，那他就变成大写了
+        (7) toLowerCase()；转小写
+        (8) s1.concat(s2)：和 s1+s2 相同都是拼接字符串，还涉及空指针问题，其他都一样
+    二、字符串与字符字节相关
+        (1) new String(char[] arr , 【int offset】, 【int count】)		//用arr的字符数组构建字符串，从下表offset开始一共count个,可不加后俩参数
+        (2) char[] toCharArray()：   //把字符串转成字符数组		例 char[] arr = str.toCharArray()；
+        (3) char charAt(index)： //获取字符串index位置的字符	例 char = input.next().chatAt(0);
+        (4) byte[] getBytes(【Charset charset】或【String charsetName】)：  //byte[] bytes = str.getBytes("UTF-8");
+        (5) String(byte[] bytes, 【int offset】, 【int length】, 【String charsetName】)：//指定的字符集解码的byte构造一新String 	//String string = new String(arr,0,4,"UTF-8");
+    三、字符串操作
+        (1) boolean endsWith(String suffix)： //测试此字符串是否以指定的后缀结束。 变量.endsWith("要查找的字符")
+            boolean startsWith(String prefix, 【int toffset】)： //测试此字符串从[指定索引]开始的子字符串是否以指定前缀开始。
+        (2) boolean contains(CharSequence s)： //当且仅当此字符串包含指定的 char 值序列时，返回 true。
+        (3) int indexOf(int ch, 【int fromIndex】)： //返回在此字符串中第一次出现指定字符处的索引，[从指定的索引开始搜索]。无则但会‘-1’
+            int indexOf(String str, 【int fromIndex】)： //返回指定子字符串在此字符串中第一次出现处的索引，[从指定的索引开始]。
+            int lastIndexOf(int ch, 【int fromIndex】)： //返回指定字符在此字符串中最后一次出现处的索引，[从指定的索引处开始进行反向搜索]。
+            int lastIndexOf(String str, 【int fromIndex】)： //返回指定子字符串在此字符串中最后一次出现处的索引，[从指定的索引开始反向搜索]。
+        (4) String substring(int beginIndex, 【int endIndex】)： //返回一个新字符串，它是此字符串从beginIndex开始截取到【endIndex/最后】(不包含)的一个子字符串。
+        (5) boolean matches(String regex)： //告知此字符串是否匹配给定的正则表达式。
+        (6) String replace(char oldChar, char newChar)：  //（不支持正则）返回一个新的字符串，它是通过用 newChar 替换此字符串中出现的所有 oldChar 。
+            String replaceAll(String regex, String replacement)：  //（支持正则）使用给定的 replacement 替换此字符串所匹配给定的正则表达式的子字符串。
+            String replaceFirst(String regex, String replacement)：  //（支持正则）使用给定的 replacement 替换此字符串匹配给定的正则表达式的第一个子字符串。
+        (7)String[] split(String regex, 【int limit】)：  //根据匹配给定的正则表达式来拆分此字符串，【最多不超过limit个，如果超过了，剩下的全部都放到最后一个元素中】。
+-->
+5、Java的正则表达式
+<!--
+    一、常用语法(更全可看有道云笔记内容)
+        "\\d"		    表示一个数字
+        "\\d+"		    表示1-n个数字，其他类型也一样，有+号表示后边连续多个本成员
+        "\\D"		    表示一个非数字
+        "\\s"		    表示一个空白字符，多个就加+
+        "\\S"		    表示一个非空白字符
+        "\\w"		    表示一个单词字符，包括26个英文字母大小写下划线和0-9
+        "\\W"		    表示非单词字符
+        "^"			    表示开头
+        "$"			    表示结尾
+        "."			    匹配除"\r\n"之外的任何单个字符
+        "+"             1~n个字符
+        "*"             0~n个字符
+        "?"             0~1个字符
+        "[abc]"         字符集。匹配包含的任一字符
+        "[^abc]"        反向字符集。匹配未包含的任何字符。例如，"[^abc]"匹配"plain"中"p"，"l"，"i"，"n"。
+        "[^a-z]"        反向范围字符。匹配不在指定的范围内的任何字符。例如，"[^a-z]"匹配任何不在"a"到"z"范围内的任何字符。
+        "x{n}"          表示字符x出现了n次
+        "x{n,}"         表示字符x至少出现了n次
+        "x{n,m}"         表示字符x至少出现了n次，最多m次
+        "x|y"           匹配 x 或者 y
+    二、练习
+        "^|\\.\\[zk\\<\\].+\\[zk\\>\\]$"        匹配开头结尾：“zk<”开头“zk>”结尾
+        "137|135\\d{8}"                         表示137或者135开头后边8个数字
+-->
+6、可变字符串
+<!--
+    (1) StringBuffer(【int size】/【String str】)：   //构造指定【容量/内容】的字符串缓冲区
+    (2) StringBuffer append(xx)： //提供了很多的append()方法，用于进行字符串拼接，“对象。append（“扩展内容”）”自动把原对象字符串串加一起，不用在接收了，要是想赋值给其他变量可以接受
+    (3) StringBuffer delete(int start,int end)： //删除指定位置的内容
+    (4) StringBuffer deleteCharAt(int index) ： //删除指定位置的字符
+    (5) StringBuffer insert(int offset, xx)： //在指定位置插入xx
+    (6) StringBuffer replace(int start, int end, String str)： //把[start,end)位置替换为str
+    (7) StringBuffer reverse() ： //把当前字符序列逆转
+    (8) void setCharAt(int index, char ch) ： //替换index位置的字符，该方法不支持方法链，因为方法的返回值类型是void
+-->
+7、Math相关
+<!--
+    (1) abs                           //绝对值
+    (2) PI 		                    //常量Π3.14159267.。。。。
+    (3) acos,asin,atan,cos,sin,tan   //角函数
+    (4) sqrt                         //平方根
+    (5) pow(double a,doble b)        //a的b次幂
+    (6) log                          //自然对数
+    (7) exp                          //e为底指数
+    (8) max(double a,double b)       //最大值
+    (9) min(double a,double b)       //最小值
+    (10) random()                    //返回0.0到1.0的随机数
+    (11) long round(double a)        // double型数据a转换为long型（四舍五入）
+    (12) double floor(double a) ：  //往小舍去小数点
+    (13) double ceil(double a)  ：  //往大进一
+    (14) toDegrees(double angrad)    //弧度—>角度
+    (15) toRadians(double angdeg)    //角度—>弧度
+    (16) BigInteger                 //可以表示不可变的任意精度的整数
+    (17) BigDecimal                 //数字计算精度比较高，BigDecimal类支持不可变的、任意精度的符号十进制定点数。
+-->
+8、System类
+<!--
+    (1)System.out：标准的输出设备，控制台
+    (2)System.in：标准的输入设备，键盘
+    (3)System.err：打印错误信息，默认用红色
+    (4)System.currentTimeMillis()	获取系统时间
+    (5)System.arraycopy(src, srcPos, dest, destPos, length);
+    (6)System.exit(status);  终止当前正在运行的 Java 虚拟机。非0是异常终止，0是正常退出
+    (7)System.gc()：通知垃圾回收器来回收垃圾
+    (8)Properties getProperties()  ：获取当前系统的属性
+-->
+9、日期类
+<!--
+    一、Date
+        (1) date.getTime();	//获取当前毫秒值
+    二、GregorianCalendar
+        (1)Calendar c = Calendar.getInstance();	    //建对象
+        (2)int year = c.get(Calendar.YEAR);         //取出时间对象Calendar的year，还可MONTH、DAY_OF_MONTH、HOUR_OF_DAY、SECOND等
+        (3)c.set(Calendar.YEAR, 2018);              //设置时间对象Calendar的值
+    三、java.text.DateFormat
+        (1) SimpleDateFormat sf = new SimpleDateFormat("yyyy-MM-dd");   //创建实现类对象(指定格式)
+        (2) String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss SSS").format(new Date());   //返回目前时间的string
+    四、java.time.LocalDate/LocalTime/LocalDateTime   不可改变日期类型
+        (1) LocalDate jin = LocalDate.now();     //获取现在时间 2020-03-31
+        (2) int year = jin.getYear();DayOfWeek dayOfWeek = jin.getDayOfWeek();      //获取具体值方法
+        (3) LocalDate next = jin.plusMonths(3);     //三月后时间(也可jitianhou)
+        (4) boolean b = jin.isLeapYear();           //是否是今年最后一天
+    五、java.time.Instant/ZoneId/Duration/Period/format.DateTimeFormatter
+        (1) Instant t = Instant.now();		//本初字母线时间
+            OffsetDateTime atOffset = t.atOffset(ZoneOffset.ofHours(8));    //本初字母线偏移8小时时间
+        (2) ZonedDateTime t = ZonedDateTime.now();  //现在的时区时间
+            ZonedDateTime t1 = ZonedDateTime.now(ZoneId.of("America/New_York"));    //指定时区的时间
+        (3) LocalDateTime t1 = LocalDateTime.now();
+            LocalDateTime t2 = LocalDateTime.of(2018, 12, 31, 23, 59, 59, 999);
+            Duration between = Duration.between(t1, t2);
+            //Period between = Period.between(t1, t2);      //两种方法计算时间差
+            between.toDays()；between.toHours()；     //计算时间差
+        (4) DateTimeFormatter.ISO_DATE.format(LocalDate.now())          //格式化时间
+            DateTimeFormatter.ISO_DATE_TIME.format(LocalDateTime.now()) //格式化时间
+            DateTimeFormatter.ofLocalizedDate(FormatStyle.FULL).format(LocalDate.now())     //FULL和SHORT适用于LocalDate和LocalTime
+            DateTimeFormatter.ofLocalizedTime(FormatStyle.SHORT).format(LocalTime.now())    //FULL和SHORT适用于LocalDate和LocalTime
+            DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM).format(LocalDateTime.now())   //LONG和MEDIUM适用于LocalDateTime
+            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss").format(LocalDateTime.now())      //格式化目前时间
+-->
+10、File
+<!--
+    (1) 获取文件名：getName()	（传的路径名字拿走就留下文件名 “1.jpg”）
+    (2) 获取文件的路径：getPath()    指定路径，new File对象时指定的路径，原样打印
+	     获取文件的绝对路径：getAbsolutePath()   绝对路径，不会解析..等，（那个盘下全名，）
+         ★获取文件的规范路径：getCanonicalPath()  绝对路径，会解析..等表示方式（那个盘下全名，）
+	     获取父目录路径：getParent()		父目录路径就是传入的字符串路径名去掉文件名
+    (3) 获取文件的大小：length()  单位字节   不能直接获取目录的大小，如果要获取，可以用递归
+    (4) 获取文件最后修改时间：lastModified()  单位毫秒
+    (5) 是否是文件：isFile()
+        是否是目录：isDirectory()
+        是否是隐藏：isHidden()
+        是否存在：exists()
+        是否可读：canRead
+        是否可写：canWrite
+    (6) 文件操作：
+         * 1、创建：createNewFile，若目录不存在则没反应
+         * 2、删除：delete()
+         * 3、重命名：renameTo()	不能创建目录
+         * 4、创建临时文件
+               static File createTempFile(String prefix, String suffix)
+               一般会配合void deleteOnExit()
+    (7)目录的操作：
+         * 1、创建
+         * 		mkdir()  失败不报异常，如果父目录不存在，什么也不做
+         * 		mkdirs() 如果父目录不存在，一并创建
+         * 2、删除
+         * 		delete()  删除的是最目录的最底层（而且只能删除空目录)，如果删除非空目录可以用递归
+         * 3、重命名：
+         * 		renameTo(xx)	xx位置可以更换位置，而且里边文件跟着移动，不能创建目录
+         * 4、列出本目录下的子级
+         * 		String[] list()
+         * 		File[] listFiles()
+-->
+11、IO流通用方法：
+<!--
+    一、字节输入流：InputStream
+        （1）int read()：一次读一个字节，返回的读取的字节的值，如果到达数据末尾没有数据了就返回-1
+        （2）int read(byte[] data)：一次读取多个字节，读取的数据存到data字节数组中，从[0]下标开始存储，返回实际读取的字节的个数，最多读data.length个，如果到达数据末尾没有数据了就返回-1
+        （3）int read(byte[] data, int offset, int count)：：一次读取多个字节，读取的数据存到data字节数组中，从[offset]下标开始存储，返回实际读取的字节的个数，最多读取count个，没数据返回-1
+        （4）void close():关闭IO流
+    二、字节输出流：OutputStream
+        （1）void write(int)：一次写一个字节
+        （2）void write(byte[] data)：一次写整个字节数组
+        （3）void write(byte[] data, int offset, int count)：一次写多个字节，从data[offset]开始，count个字节
+        （4）void close():关闭IO流
+        （5）void flush（）：刷新-从缓冲区立即写出
+    三、字符输入流：Reader
+        （1）int read()：一次读一个字符，返回的读取的字符的Unicode编码值，这个方法，如果流中没数据了，返回-1
+        （2）int read(char[] data)：一次读取多个字符，读取的数据存到data字符数组中，从[0]下标开始存储，返回实际读取的字符的个数，最多读data.length个，这个方法，如果流中没数据了，返回-1
+        （3）int read(char[] data, int offset, int count)：：一次读取多个字符，读取的数据存到data字符数组中，从[offset]下标开始存储，返回实际读取的字符的个数，最多读取count个，没数据返回-1
+        （4）void close():关闭IO流
+    四、字符输出流：Writer
+        （1）void write(int)：一次写一个字符
+        （2）void write(char[] data)：一次写整个字符数组
+        （3）void write(char[] data, int offset, int count)：一次写多个字符，从data[offset]开始，count个字符
+        （4）void write(String str)：字符串写出去
+        （5）void write(String str, int offset, int count)：从offset写count这么长
+        （6）void close():关闭IO流
+        （7）void flush（）：刷新-从缓冲区立即写出
+    五、常见IO
+         （1）文件IO流
+         * FileInputStream：以字节的方式读取文件内容
+         * FileOutputStream：以字节的方式输出，保存文件内容
+         * FileReader：以字符的方式读取纯文本文件内容
+         * FileWriter：以字符的方式输出纯文本数据到纯文本文件中。
+         （2）字节数组IO流
+         * ByteArrayInputStream：从字节数组中读取数据
+         * ByteArrayOutputStream：把数据保存到字节数组中
+         （3）字符数组IO流
+         * CharArrayReader：从字符数组中读取数据
+         * CharArrayWriter：把数据保存到字符数组中
+         * StringReader：从字符串中读取数据
+         * StringWriter：把数据保存到字符串中
+         （4）解码和编码IO流
+         * OutputStreamWrite：//数据从程序 &ndash;&gt; osw（字符流) &ndash;&gt;按照编码&ndash;&gt;fos（字节流)&ndash;&gt;文件
+         * InputStreamReader：//数据流向： "utf-8.txt" &ndash;&gt; fis（字节流) &ndash;&gt; isr（字符流))&ndash;&gt;输出
+         （5）缓冲IO流：
+         * BufferedInputStream：给InputStream系列的IO流增加“缓冲”功能
+         * BufferedOutputStream：给OutputStream系列的IO流增加“缓冲”功能
+         * BufferedReader：给Reader系列的IO流增加“缓冲”功能
+         * BufferedWriter：给Writer系列的IO流增加“缓冲”功能
+         （6）对象IO流
+         * ObjectInputStream：一次输入一个对象
+         * ObjectOutputStream：一次输出一个对象
+         （7）基本数据IO流
+         * DataInputStream：一次输入一个Java的基本数据类型的值
+         * DataOutputStream：一次输出一个Java的基本数据类型的值
+         （8）打印流
+         * PrintStream：例如：System.out
+         * PrintWriter：例如：web中,response.getWriter() 给客户端输出数据用的
+    六、DataInputStream / DataOutpuStream
+        writeUTF(xx)	//String类型
+        writeInt(xx)
+        writeDouble(xx)
+        writeChar(xx)
+        writeBoolean(xx)
+-->
+12、Thread / Runnable 多线程
+<!--
+        Thread(Runnable target,String name)            //构造器，name指线程名称，target指Runnable接口的实现类
+        setName(); / getName();                       //设置和获取线程名，实现Runnable接口的需要：Thread.currentThread().getName()
+        run()                                           //编写线程体，该线程要执行的代码
+        start()                                     //启动线程
+        static void sleep(毫秒)	                       //Thread.sleep(毫秒值)1000毫秒 = 1秒
+        static yield()	                               //Thread.yield()，一般在某个线程的run方法里执行。暂停当前线程（Thread.yield()代码）该线程主动放弃CPU资源，和其他线程重新抢占CPU资源。
+        join()                                      //加塞。例如在main线程中加入“j.join（）；”那么main线程要等到join线程结束后才能继续执行【j.join（1000）：主线程等1秒便继续执行】
+        static Thread currentThread()：             //在继承Thread类的线程体中，直接用this,在实现Runnable接口的线程体中或main主线程体中，要获取当前线程对象：Thread.currentThread()
+        m.setDamemon(true);	//守护线程，为其他线程服务，例如垃圾回收线程，如果内存中其他线程已经死亡，那么守护线程会自动终止。
+        getPriority(MIN_PRIORITY)                   //获取线程优先级：[1,10]，10最高，主线程默认是5
+        sePriority();                               //设置优先级
+        synchronized                                //锁，线程安全问题时将方法加锁解决
+        wait();                                     //线程进入等待状态，一般多线程模式会用到
+        notify()/notifyAll()                        //唤醒，针对上边的wait，等待的会被唤醒，单个随即唤醒/全部唤醒
+-->
+13、反射
+<!--
+    一、获取反射对象
+        （1）类型名.class
+        （2）对象.getClass()	//返回对象的运行时类型
+        （3）Class.forName("类型的全名称")	//只能用引用数据类型  //参数全名称也就是“包.类名”
+        （4）ClassLoader对象.loadClass("类型的全名称")
+    二、创建对象
+        （1）Class对象.newInstance()                                     //调用公共的无参构造器创建对象
+        （2）Constructor<?>[] getConstructors()                          //获取所有的公共的构造方法
+             Constructor<?>[] getDeclaredConstructors():                 //所有构造方法，公共的不公共的都有
+             Constructor<T> getConstructor(Class<?>... parameterTypes)    //返回一个指定的公共的构造方法
+             Constructor<T> getDeclaredConstructor(Class<?>... parameterTypes) ：     //返回指定的构造方法，可以不是公共的
+             constructor.setAccessible(true);                                 //设置构造器可访问
+             constructor.newInstance(1,"张");                                 //返回该类实例对象
+    三、获取和设置属性值
+        Field getField(String name)                         //获取指定的公共的属性
+        Field[] getFields()                                 //获取所有的公共的属性
+        Field getDeclaredField(String name)                 //获取指定的属性
+        Field[] getDeclaredFields()                         //获取所有的属性
+        属性对象.set(实例对象，value)                       //设置属性值为value
+        属性对象.get(实例对象)                              //获取该实例对象的该属性值
+    四、利用反射调用方法
+        Method[] 实例对象.getMethods()                      //获取所有公共的方法
+        Method getMethod(xxx)                               //获取指定的公共的方法。参数：①"方法名"②型擦类型参数Student.Class
+        Method[] getDeclaredMethods()                       //获取所有声明的方法
+        Method[] getDeclaredMethod(xxx)                     //获取指定的方法。参数：①"方法名"②型擦类型参数Student.Class
+        addMethod.invoke(obj, stuClass.newInstance());      //调用方法。参数：①实例对象，即那个对象的方法②方法的实参列表
+    五、获取任意类型的信息
+        （1）包：getPackage() &ndash;&gt;Package &ndash;&gt;
+        （2）修饰符：getModifier() &ndash;&gt; int整数值  &ndash;&gt; Modifier类型
+        （3）父类：  A：不带泛型信息：getSuperClass() &ndash;&gt; Class
+        	  	  B：带泛型信息：getGenericSuperClass() &ndash;&gt; Type
+        （4）接口
+        A：不带泛型信息：getInterfaces() &ndash;&gt;Class[]
+        B：带泛型信息：getGenericInterfaces() &ndash;&gt;Type[]
+        （5）属性
+        A：获取所公共的Fields  &ndash;&gt; Field[] getFields()
+        B：获取所已经声明的 &ndash;&gt; Field[]  getDeclaredFields()
+        C：获取其中一个公共的 &ndash;&gt; Field getField(属性名)
+        D：获取一个已经声明的 &ndash;&gt; Field getDeclaredField(属性名)
+        （6）构造器
+        A：获取所公共的构造器 &ndash;&gt;Constructor[] getConstructors()
+        B：获取所已经声明的构造器 &ndash;&gt;Constructor[] getDeclaredConstructors()
+        C：获取一个公共的构造器 &ndash;&gt; Constructor getConstructor(形参类型列表)
+        D：获取一个已经声明的构造器 &ndash;&gt;  Constructor getDeclaredConstructor(形参类型列表)
+        E:形参列表们：getParameterTypes（）；
+        （7）方法
+        A：获取所的公共的方法 &ndash;&gt; Method[] getMethods()
+        B：获取所已经声明的方法 &ndash;&gt; Method[] getDeclaredMethods()
+        C：获取其中一个公共的方法 &ndash;&gt; Method getMethod(方法名, 方法的形参类型列表)
+        D：获取其中一个已经声明的的方法 &ndash;&gt; Method getDeclaredMethod(方法名, 方法的形参类型列表)
+        E：getModifiers	修饰符
+        F：method.getReturnType()；	//方法的返回值们
+        G：method.getName()；		//方法名们
+        H：method.getParameterTypes		//形参列表们，返回class数组，比那里打印他们的getName
+        I：method.getExceptionTypes();	//异常们，便利直接打印即可
+    六、注解和泛型
+        （1）c.getAnnotation(MyAnnotation.class); my.value();     //获取类/属性/方法上的注解信息，并取出值
+        （2）subClass.getSuperclass();                            //获取反省父类（这个得不到泛型信息）
+        （3）(ParameterizedType)subClass.getGenericSuperclass();  //获取泛型父类信息，并且把type类型强制转化为ParameterizedType类型
+        （4）p.getActualTypeArguments();                          //获取实际的类型参数
+-->
+14、网络编程
+<!--
+    一、java.net.InetAddress
+            public static InetAddress getLocalHost()                //获取本机的InetAddress实例
+            public static InetAddress getByAddress(byte[] addr)	    //得到byte[]数组，做了特殊处理，范围可以包下
+            public static InetAddress getByName(String host)		//例如hoet输入"www.baidu.com."就得到百度的ip地址，
+            public String getHostAddress()                          //返回 IP 地址字符串（以文本表现形式。这个方法就是把getLocalHost方法得到结果分解了
+            public String getHostName()                             //获取此 IP 地址的主机名
+            public String getCanonicalHostName()                    //获取此 IP 地址的完全限定域名
+            public boolean isReachable(int timeout)                 //测试是否可以达到该地址。
+    二、
+            new URL("http://192.168.32.34:8080/docs/index.html");   //获取URL实例
+            System.out.println("协议：" + url.getProtocol());
+            System.out.println("主机名：" + url.getHost());
+            System.out.println("端口号：" + url.getPort());
+            System.out.println("路径名：" + url.getPath());
+            System.out.println("文件名：" + url.getFile());        //注意如果存在锚点，那么查询名返回null，因为#后面全部当做锚点了
+            System.out.println("锚点：" + url.getRef());
+            System.out.println("查询名：" + url.getQuery());
+            InputStream inputStream = url.openStream();             //获取InputStream对象
+            URLConnection conn = url.openConnection();              //获取URLConnection
+            conn.setDoOutput(true);                                 //设置属性，例如，设置该连接可以给服务器传数据
+            OutputStream out = conn.getOutputStream();              //可以给服务器发数据，也可获取getInputStream
+    三、TCP/IP变成
+            new ServerSocket(9999);                     //默认服务器的IP地址是启动这个程序的主机ip地址
+            Socket socket = server.accept();            //阻塞方法，没有客户端一直阻塞，有客户端连接了会新建一个Socket对象，专门负责和该客户通信
+            InputStream is = socket.getInputStream();   //获取与该客户端连接的输入流，也可获取输出流socket.getOutputStream();
+            socket.shutdownOutput();                    //关闭输出通道
+-->
+15、Lambda表达式
+<!--
+    一、Consumer<T>消费型接口：void accept(T t)
+             *  BiConsumer<T,U>：抽象方法  void accept(T t,U u)
+             *  DoubleConsumer；抽象方法   void accept(double value)	//只消费Double类型的
+             *  IntConsumer：抽象方法  void accept(int value)		//只消费Int类型的
+             *  ObjLongConsumer<T>：抽象方法  void accept(T t，Long value）
+    二、Supplier<T>供给型接口：T get()
+             *  IntSupplier：抽象方法  int getAsInt()
+             *  DoubleSupplier：抽象方法  double getAsDouble()
+             *  BooleanSupplier：抽象方法  Boolean getAsBoolean()
+    三、Function<T, R>函数型接口：R apply(T t)  把lambda体的语句应用到t参数上，并且返回一个R类型的结果
+             *   BiFunction<T,U,R>：抽象方法  R apply(T t, U u)  把lambda体的语句应用到t和u参数上，并且返回一个R类型的结果
+             *   DoubleFunction<R>：抽象方法 R apply(double value)
+             *   DoubleToIntFunction：抽象方法  int applyAsInt(double value)
+             *   IntToDoubleFunction：抽象方法  double applyAsDouble(int value)
+    四、Predicate<T>断定型接口：boolean test(T t)
+             *   BiPredicate<T,U>：抽象方法  boolean test(T t, U u)
+             *   DoublePredicate：抽象方法  boolean test(double value)
+             *   IntPredicate：抽象方法  boolean test(int value)
+             *   LongPredicate：抽象方法  boolean test(long value)
+-->
+16、StreamAPI
+<!--
+    一、创建Stream
+            Arrays.stream(T[] array);               //数组形式创建
+            arrayList.stream();                     //集合形式创建
+            Stream.of("hello","world","java");      //返回数据流(of里边值)
+            Stream.iterate()                        //创建无线流。如：Stream.iterate(1, t -> t+2);
+            Stream.generate()                     //创建无限流。如：Stream.generate(Math::random);
+    二、中间操作
+            filter(Predicate p)                  //接收Lambda?，?从流中排除某些元素
+            distinct()                            //筛，通过流所生成元素的HashCode()?和Equals()?去除重复元素
+            limit(long maxSize)                  //截断流，使其元素不超过给定数量
+            skip(long n)                         //跳过元素，返回一个扔掉了前n个元素的流。若流中元素不足n个，则返回一个空流。与Limit(n)?互补
+            map(Function f)                 //接收一个函数作为参数，该函数会被应用到每个元素上，并将其映射成一个新的元素。
+            mapToDouble(ToDoubleFunction f) //接收一个函数作为参数，该函数会被应用到每个元素上，产生一个新的DoubleStream。
+            mapToInt(ToIntFunction f)       //接收一个函数作为参数，该函数会被应用到每个元素上，产生一个新的IntStream。
+            mapToLong(ToLongFunction f)     //接收一个函数作为参数，该函数会被应用到每个元素上，产生一个新的LongStream。
+            flatMap(Function f)             //接收一个函数作为参数，将流中的每个值都换成另一个流，然后把所有流连接成一个流
+            sorted()                                //产生一个新流，其中按自然顺序排序
+            sorted(Comparator com)                  //产生一个新流，其中按比较器顺序排序
+    三、终止操作
+            allMatch(Predicate p)               //检查是否匹配所有元素
+            anyMatch(Predicate p)               //检查是否至少匹配一个元素
+            noneMatch(Predicate  p)             //检查是否没匹配所有元素
+            findFirst()                         //返回第一个元素
+            findAny()                           //返回当前流中的任意一个元素，如果流是一个稳定的流，那就和findFirst()一样
+            count()                             //返回流中元素总数
+            max(Comparator c)                   //返回流中最大值
+            min(Comparator c)                   //返回流中最小值
+            forEach(Consumer c)                 //内部迭代(使用 Collection 接口需要用户去做迭代，称为外部迭代。相反，Stream API 使用内部迭代——它帮你把迭代做了)
+            reduce(T iden, BinaryOperator b)    //可以将流中元素反复结合起来，得到一个值。返回燭
+            reduce(BinaryOperator b)              //可以将流中元素反复结合起来，得到一个值。返回燨ptional<T>
+            collect(Collector c)                  //将流转换为其他形式。接收一个燙ollector接口的实现，用于给Stream中元素做汇总的方法
+                方法                  返回值类型               作用描述
+                toList                List<T>                把流中元素收集到List
+                toSet                Set<T>                把流中元素收集到Set
+                toCollection                Collection<T>                把流中元素收集到创建的集合
+                counting                Long                计算流中元素的个数
+                summingInt                Integer                对流中元素的整数属性求和
+                averagingInt                Double                计算流中元素Integer属性的平均值
+                summarizingInt                IntSummaryStatistics                收集流中Integer属性的统计值。如：平均值
+                joining                String                连接流中每个字符串
+                maxBy                Optional<T>                根据比较器择最大值
+                minBy                Optional<T>                根据比较器择最小值
+                reducing                归约产生的类型                从一个作为累加器的初始值开始，利用BinaryOperator与流中元素逐个结合，从而归约成单个值
+                collectingAndThen                转换函数返回的类型                包裹另一个收集器，对其结果转换函数
+                groupingBy                Map<K, List<T>>                根据某属性值对流分组，属性为K，结果为V
+                partitioningBy                Map<Boolean, List<T>>                //根据true或false进行分区
+    四、Optional
+        * （1）empty()                            //包装空对象
+        * （2）ofNullable()                       //包装可能为空的对象
+        * （3）of()                               //包装非空对象，如果对象为空，报异常
+        * （1）get()                              //要求只能取出非空对象，如果包装的对象是null，会抛出一个异常NoSuchElementException
+        * （2）orElse（xx）                       //如果包装的对象非空，那么就返回锁包装的对象，如果包装的对象是null，那么就用xx代替
+        * （3）orElseGet(Supplier)                                 //如果包装的对象非空，那么就返回锁包装的对象，如果包装的对象是null，那么就用Supplier的get方法的返回值代替
+        * （4）orElseThrow(Supplier)                               //如果包装的对象非空，那么就返回锁包装的对象，如果包装的对象是null，那么就抛出Supplier的get方法所返回的异常对象
+        * （2）ifPresent(Consumer)                                 //如果存在就执行Consumer的accept()的代码，如果不存在，什么也不干
+        * （1）Optional<T> filter(Predicate<? super T> predicate)  //当Optional中包装的对象，符号predicate的条件判断，那么就保留，否则就不保留。
+        * （1）<U> Optional<U> map(Function<? super T,? extends U> mapper)
+        * （2）<U> Optional<U> flatMap(Function<? super T,Optional<U>> mapper)
+-->
+17、Kafka
+<!--
+    一、producer
+        (1) new KafkaProducer<String, String>(pro);  //创建生产者实例
+        (2) producer.send( new ProducerRecord<String, String>(topicString, partition, key, value), 【new Callback(){***}】)  //发送消息：带回调函数
+        (3) void onCompletion(RecordMetadata recordMetadata, Exception e)    //回调函数抽象方法(消息元数据，异常)
+            recordMetadata.topic()； //回调函数中获取主题
+            recordMetadata.offset()； //获取偏移量
+            recordMetadata.partition()； //获取分区号
+        (4) producer.close(); //关闭生产者
+        (5) implements Partitioner    //自定义分区类
+        (6) implements ProducerInterceptor<String, String>      //自定义Kafka拦截器
+    二、consumer
+        (1) new KafkaConsumer<String, String>(pros); //创建消费者实例
+        (2) consumer.subscribe(Arrays.asList("first","second","third")); //设置消费者订阅那些topic
+        (3) ConsumerRecords<String, String> records = consumer.poll(100);  //消费数据并返回
+        (4) record.topic(); record.offset(); record.key(); record.value(); record.partition();      //获取主题、偏移量、分区、key、value
+        (5) new SimpleConsumer(leader, 9092, 3000, 1024 * 1024, "消费数据");    //创建消费者
+        (6) new FetchRequestBuilder().addFetch(topic, partition, offset, 1024 * 1024).build();  //封装获取数据的请求
+        (7) FetchResponse fetchResponse = consumer.fetch(fetchRequest); //发送请求获取响应
+        (8) fetchResponse.messageSet(topic, partition);     //筛选出指定topic和partition的响应集
+        (9) messageAndOffset.offset(); //获取offset
+        (10) messageAndOffset.message(); message.payload()get(new byte[payload.limit()]); new String(bytes); //将message解析成String
+-->
+18、集合
+<!--
+    一、Collection：根接口方法
+        （1）add(obj)：添加一个元素到当前集合中（若添加一个集合也算是一个元素，总元素个数只加1）
+        （2）addAll(Collection c)：添加多个元素，把集合c中的每个元素都添加到当前集合中
+        （3）remove(obj)：从当前集合中删除一个元素，若有想要删除的重复元素，只删除第一个
+        （4）removeAll(Collection c)：从当前集合中把集合c中存在的元素都删除，即删除它俩的交集
+        （5）contains(obj)：是否包含obj元素
+        （6）containsAll(Collection c)：判断c是否是当前集合的子集，就是当前集合是否全部包含c集合的所有元素
+        （7）retainAll(Collection c)：只保留交集部分
+        （8）size()：获取当前集合的元素个数
+        （9）isEmpty()：判断当前集合是否为空集合
+        （10）clear()：情况当前集合的所有元素
+        （11）iterator()：获取当前集合的一个迭代器对象，用于遍历当前集合用
+        （12）toArray()：把当前集合中的元素放到一个数组中，并返回
+        （一）遍历1：  for(Object object : jihe) {System.out.println(object);}
+        （二）遍历2：  jihe.toArray().foreach.sout;
+        （三）遍历3：  Iterator b = jihe.iterator();  while(b.hasNext()) {System.out.println(b.next());}
+    二、List：有序的，添加顺序的，可重复，在Collection增加了许多和索引增加的方法，遍历的方法，可以通过下标获取了。
+        （1）Vector：动态数组
+                相对ArrayList来说比较旧一点，线程安全的
+                初始化时数组的长度为10，不够了可以扩容，要么照你指定的capacityIncrement进行扩容，默认是照2倍扩容(10-20-40-80)
+                Vector遍历除了支持新的foreach和Iterator迭代方式外，还支持旧版的迭代器Enumration
+        （2)ArrayList：动态数组（没有元素进出的顺序需求或者需要[index]一般都选ArrayList）
+                相对Vector来说比较新一点，线程不安全的
+                空参构造创建ArrayList对象时，JDK1.6默认长度为10。1，7以后数组初始化为一个空数组常量，第一次添加元素时，初始化为10，后期默认都照1.5倍扩容(10-15-22-33-49)
+                ArrayList只支持foreach和Iterator迭代
+        （3）LinkedList：双向链表（要是有元素进出需求一般选择LinkedList，其他的类的方法他都有）
+                JDK1.6之后同时也是双端队列支持栈、对列、双端队列。队列（先进先出，offer，poll）、（既可以从头移除元素，也可以从队尾移除元素）
+                底层的物理结构：链表，不建议调用和（index）相关的方法。但是在删除、插入时效率高，省空间
+        （4）Stack：是Vector的子类，特征：后进先出（LIFO），或者说先进后出。		//代表方法：对象.pop()（把对象弹出）	对象.push压入	（和add效果一样）
+        （5）新增方法：
+                1）add(index,obj)：指定在index位置，添加一个元素到当前集合中
+                2）addAll(index,Collection c)：指定在index位置，添加多个元素，把集合c中的所有元素都添加到当前集合中
+                3）remove(index)：指定删除index位置的元素
+                4）get(int index)：获取index位置的元素
+                6）indexOf(Object o)：获取o元素在当前集合中的第一次出现的索引，若没有返回-1
+                7）lastIndexOf(Object o)：获取o元素在当前集合中的最后一次出现的索引，若没有返回-1
+                8）listIterator()：获取当前集合的一个迭代器，这个迭代器支持从前往后，也支持从后往前迭代，并且支持在迭代的同时添加，替换元素等。
+                9）set(index,obj)：替换当前集合index位置的元素
+                10）subList(int fromIndex, int toIndex) ：截取当前集合[fromIndex,toIndex)部分的元素
+                11）retainAll(Collection c)：只保留交集部分
+                12）contains、remove、retainAll是调用了对象的equals方法，若返回值相同便认为是同一对象(重写对象的hashcode和equals方法)
+    三、set：无序的，不保证添加的顺序，不可重复（Set里的方法都是Collection里的方法，没有另外添加的）
+        （1）HashSet：
+                1、通过元素的hashCode()和equals()方法，保证无序，不可重复，hashCode值决定它散列存储，equals最终确定是否重复，可以通过重写hashCode()和equals()方法来选择对象的价格不可重复
+                2、String重写了equals方法，一样的String内容就被认为是一样的添加不了重复的，但是new Student没有重写equals方法，那么就认为不同，可以添加new的内容一致的元素，重写后可以实现“不重复”
+        （2）TreeSet（构造器用得着的有两种，一是无参。二是参数为比较器）
+                大小排序规则：1、要么添加的元素类实现了java.lang.Comparable接口（自然排序规则，默认排序规则，重写int compareTo(T t)），要是返回值相等那就认为是同一个对象，那么就不能重复添加，
+                              2、要么为TreeSet指定一个定制比较器对象（new TreeSet（new 比较器名称）），对象是实现java.util.Comparator接口（定制比较规则，重写int compare(T t1, T t2)方法）
+                一般重写了compareto方法了都重写equals方法。因为compareto方法认为相同的话equals比较像等那就比较怪，所以一般都一起重写
+        （3）LinkedHashSet：
+                它是HashSet的子类，比HashSet多维护了元素之间添加的前后顺序。添加和删除效率比较低，因为要维护元素的顺序关系，凡是你想要一个集合，既想不可重复又想维护添加顺序可以选它
+        （4）Set的内部实现都是Map
+                HashSet &#45;&#45;》 HashMap  &#45;&#45;》 key：存储到Set中的元素，value：Object类型的常量对象PRESENT
+                TreeSet &ndash;&gt; TreeMap   &#45;&#45;》 key：存储到Set中的元素，value：Object类型的常量对象PRESENT
+                LinkedHashSet &ndash;&gt;  LinkedHashMap  &#45;&#45;》 key：存储到Set中的元素，value：Object类型的常量对象PRESENT
+    四、Map常用方法：kay是不可重复的，value可以重复。key和value可以是任意数据类型。Map数组初始容量16，是2倍扩容，底层元素是Entry类型。
+        （1）put(key,value)：添加一对映射关系到当前map集合中
+        （2）putAll(Map m)：把m集合的所有映射关系添加到当前map中
+        （3）remove(key)：根据key移除一对映射关系，并返回刚删除的value值，可接收可不接收
+        （4）clear()：清空所有
+        （5）containsKey(key)：是否包含某个key
+        （6）containsValue(value)：是否包含某个value
+        （7）V get(key)：根据key获取value
+        （8）size()：获取效元素个数
+        （9）isEmpty()：是否是空集合
+    五、Map的实现类
+        （1）Hashtable：基于哈希表（散列表），是旧版的。线程安全的。key,value都不允许为null
+        （2）HashMap：基于哈希表（散列表），相对Hashtable新一点。线程不安全的。key,value允许为null。HashMap底层的链表是单向的。
+        （3）LinkedHashMap：是HashMap的子类，维护了所有的映射关系的添加的顺序，也就是说添加和删除时比HashMap多维护了元素关系，效率就更低了。LinkedHashMap底层的链表是双向的。
+        （4）TreeMap：所的映射关系是照key的大小顺序排列（其他四个Map类的kay不能重复是因为has值和equals，这个是因为compareto和compare）。
+                      存储到TreeMap中的key要么实现java.lang.Comparable接口，要么为TreeMap指定为key设计的定制比较器对象java.util.Comparator对象
+        （5）Properties：是Hashtable的子类，它的key和value的类型都是String类型，一般用来存储属性配置信息
+                         对象.setProperty添加数据，对象.getProperty得到数据，是自己的方法
+    六、Collections 集合工具类
+        （1）public static <T> boolean addAll(Collection<? super T> c,T... elements)
+        （2）public static <T> int binarySearch(List<? extends Comparable<? super T>> list,T key)
+        （3）public static <T> void copy(List<? super T> dest, List<? extends T> src)
+        （4）public static <T extends Object & Comparable<? super T>> T min(Collection<? extends T> coll)
+                        泛型可能被擦除，T都是照上限处理的，没没指定上限，那么默认是Object，如果指定了上限，那么照第一个上限处理；
+                        因为这里返回值，T，如果擦除后，这里要求必须是Object处理，因为版本的问题，之前的版本（没泛型的版本这里是Object处理。
+        （5）public static <T> void sort(List<T> list, Comparator<? super T> c)
+             public static <T extends Comparable<? super T>> void sort(List<T> list)
+        （6）synchronized开头的方法：表示可以把原来线程不安全的集合转化为线程安全的集合，例如：ArrayList，HashMap等
+        （7）unmodifiable开头的方法：表示把一个可变的集合变成一个只读的集合
+-->

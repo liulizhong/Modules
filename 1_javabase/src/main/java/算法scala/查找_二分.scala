@@ -1,5 +1,8 @@
 package 算法scala
 
+import scala.collection.mutable.ArrayBuffer
+import util.control.Breaks._
+
 /*
   数据结构和算法 -- 二分查找
   */

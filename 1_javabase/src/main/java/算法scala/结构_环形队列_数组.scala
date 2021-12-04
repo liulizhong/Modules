@@ -1,5 +1,7 @@
 package 算法scala
 
+import scala.io.StdIn
+
 /*
   数据结构和算法 -- 环形队列(数组实现)
   */

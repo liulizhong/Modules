@@ -1,0 +1,49 @@
+1、Hadoop：
+dfs.namenode.http-address:50070
+SecondaryNameNode辅助名称节点端口号：50090
+hdfs.defaultFS:默认8020 咱们设置为9000
+yarn.resourcemanager.webapp.address:8088
+历史服务器web访问端口：19888
+dfs.datanode.http-address:50075
+dfs.datanode.address:50010
+
+2、spark：
+	Spark context Web UI查看任务执行的调度情况：4040
+	master和worker的工作状况查看(就是服务器的默认端口)：8080
+	hdfs网址端口：9000
+	历史服务器：hadoop106:18080
+	Standalone模式默认的master访问地址：7077
+
+3、Azkaban
+	azkaban页面管理页面：hadoop105:8443
+
+4、kylin
+	kylin的管理页面：hadoop105:7070
+
+5、Redis
+ Port 6379 :redis 默认的端口号
+
+6、Zookeeper
+ clientPort =2181：客户端连接端口   // 10.238.255.151：2181
+
+7、Kafka
+ hadoop102:9092  ：Kafka端口号
+
+8、MySQL
+ 默认端口号：3306
+
+9、flume-Ganglia
+ 默认端口号：8649  web：http://192.168.1.102/ganglia
+
+10、HBase
+ 默认端口号：16010
+
+11、ELK
+ ElasticSearch：9200
+ Kibana：5601
+
+12、Spark
+    SPARK_MASTER_PORT=7077
+    hadoop102:8080  // Standalone模式启动master和worker后网页查看
+    spark.history.ui.port=18080  WEBUI访问的端口号为18080
+    hadoop102:4040   //查看Spark Jobs(SparkSubmit)任务 执行情况

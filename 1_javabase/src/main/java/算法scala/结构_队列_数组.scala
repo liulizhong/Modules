@@ -1,5 +1,7 @@
 package 算法scala
 
+import scala.io.StdIn
+
 /*
   数据结构和算法 -- 队列(数组实现)
   */

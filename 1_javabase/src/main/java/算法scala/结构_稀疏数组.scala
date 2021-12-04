@@ -1,5 +1,7 @@
 package 算法scala
 
+import scala.collection.mutable.ArrayBuffer
+
 /*
   数据结构和算法 -- 稀疏数组(节省空间)
   */

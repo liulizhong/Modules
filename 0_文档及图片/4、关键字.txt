@@ -1,0 +1,28 @@
+关键字、保留字和特殊值：全部小写（50+3）
+
+(1) 关键字：在Java中被赋予的特定含义的单词。
+    基本数据类型相关(8个)：byte、short、int、long、float、double、char、boolean
+    流程控制语句相关(10个)：if、else、switch、case、default、break、for、while、do、continue
+    判断某个对象是否是某种类型的实例对象运算符：instanceof
+    定义类：class
+    创建类的对象：new
+    包相关：package、import
+    权限修饰符：public、protected、(缺省)、private
+    继承类：extends
+    定义接口：interface
+    实现接口：implements
+    当前对象：this
+    父类引用：super
+    表示无返回值：void
+    结束方法：return
+    定义枚举：enum
+    其他修饰符：abstract、static、final、native
+    异常处理：try、catch、finally、throws、throw
+    多线程同步和安全：synchronized、volatile
+    和IO序列化相关：transient
+    和单元测试相关：assert
+    其他：strictfp[strictfp关键字可应用于类、接口或方法。如果你想让你的浮点运算更加精确，严格遵守FP-strict的限制,符合IEEE-754规范，
+                    而且不会因为不同的硬件平台所执行的结果不一致的话，可以用关键字strictfp]
+(2) 保留字：在Java中注册但还未使用
+    goto、const
+(3) 9特殊值：true、false、null
