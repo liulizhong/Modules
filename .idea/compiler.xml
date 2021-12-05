@@ -16,7 +16,6 @@
         <module name="hbase离线项目一" />
         <module name="hbase项目" />
         <module name="influxdb" />
-        <module name="javabase" />
         <module name="kafka" />
         <module name="mybatis" />
         <module name="mysqljdbc" />

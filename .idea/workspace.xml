@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="06d68a0c-9dc3-4fd6-a63b-9ccc0f161b13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spark/spark.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -95,7 +93,7 @@
     <session id="569818683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="9" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
@@ -104,8 +102,9 @@
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -113,10 +112,10 @@
           <entry key="csv" value="1" />
           <entry key="dtd" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="153" />
+          <entry key="java" value="156" />
           <entry key="md" value="2" />
           <entry key="properties" value="8" />
-          <entry key="scala" value="81" />
+          <entry key="scala" value="82" />
           <entry key="sh" value="4" />
           <entry key="sql" value="1" />
           <entry key="txt" value="8" />
@@ -127,12 +126,12 @@
         <counts>
           <entry key="DTD" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="153" />
+          <entry key="JAVA" value="156" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="19" />
           <entry key="Properties" value="8" />
           <entry key="SQL" value="1" />
-          <entry key="Scala" value="75" />
+          <entry key="Scala" value="76" />
           <entry key="XML" value="33" />
         </counts>
       </usages-collector>
@@ -140,14 +139,14 @@
         <counts>
           <entry key="java" value="187" />
           <entry key="scala" value="95" />
-          <entry key="txt" value="11" />
+          <entry key="txt" value="20" />
           <entry key="xml" value="73" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="187" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="20" />
           <entry key="Scala" value="95" />
           <entry key="XML" value="73" />
         </counts>
@@ -155,7 +154,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -204,6 +203,7 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="PUSH_TAGS">
       <GitPushTagMode />
@@ -305,8 +305,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,59 +312,26 @@
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="flink" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="flink基础" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638628623724" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638712568254" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mysqljdbc/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/software/git/Git/bin/git.exe" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30229884" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -403,20 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cardioid">
-    <configuration name="自定义注解" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="枚举和注解.自定义注解" />
-      <module name="javabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="枚举和注解.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PhoenixUtil">
     <configuration name="Cardioid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="小设计.Cardioid" />
       <module name="1_javabase" />
@@ -469,16 +421,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestEmPer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis" />
+    <configuration name="PhoenixUtil" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hbase.PhoenixUtil" />
+      <module name="hbase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.*" />
+          <option name="PATTERN" value="hbase.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.TestEmPer" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -492,20 +443,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootswaggerApplication" />
-      <item itemvalue="Application.自定义注解" />
-      <item itemvalue="JUnit.TestEmPer" />
       <item itemvalue="Application.MyESUtil" />
       <item itemvalue="Application.MyPropertiesUtil" />
       <item itemvalue="Application.InfluxdbQuery" />
       <item itemvalue="Application.Cardioid" />
+      <item itemvalue="Application.PhoenixUtil" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoenixUtil" />
         <item itemvalue="Application.Cardioid" />
         <item itemvalue="Application.InfluxdbQuery" />
         <item itemvalue="Application.MyPropertiesUtil" />
         <item itemvalue="Application.MyESUtil" />
-        <item itemvalue="JUnit.TestEmPer" />
       </list>
     </recent_temporary>
   </component>
@@ -540,7 +490,8 @@
       <workItem from="1638520744322" duration="12173000" />
       <workItem from="1638608992829" duration="6628000" />
       <workItem from="1638710390976" duration="100000" />
-      <workItem from="1638710504519" duration="258000" />
+      <workItem from="1638710504519" duration="1807000" />
+      <workItem from="1638712332936" duration="484000" />
     </task>
     <task id="LOCAL-00001" summary="first create project">
       <created>1629703273415</created>
@@ -577,7 +528,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638536228392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="git add allnewsys">
+      <created>1638710807781</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638710807781</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -613,12 +571,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="202177000" />
+    <option name="totallyTimeSpent" value="204210000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118336886" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -628,16 +586,16 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37744033" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37639198" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32850778" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32814237" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32739422" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -692,37 +650,10 @@
     <MESSAGE value="first create project" />
     <MESSAGE value="first add ." />
     <MESSAGE value="git add new" />
-    <option name="LAST_COMMIT_MESSAGE" value="git add new" />
+    <MESSAGE value="git add allnewsys" />
+    <option name="LAST_COMMIT_MESSAGE" value="git add allnewsys" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/CommDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/ContactDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/CountDurationValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/DateDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-171">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/mr/CountDurationDriver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-494">
@@ -943,13 +874,6 @@
         <state relative-caret-position="-114" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/FlinkConsumertoFileOrHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/StreamWC.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -967,9 +891,6 @@
         <state relative-caret-position="-2278" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O1_source_operator_sink_udf_watermark.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O2_flink_window.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -978,6 +899,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O4_tableapi.scala">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/sadfa.java" />
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/FlinkConsumertoFileOrHdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O1_source_operator_sink_udf_watermark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/hbase/PhoenixUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+          <folding>
+            <element signature="e#15#99#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/hbase/HbaseAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3271">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/小设计/Cardioid.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
     </entry>
   </component>
   <component name="masterDetails">
@@ -1008,7 +971,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8</last-edited>
+          <last-edited>scala-sdk-2.11.8 (2)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1037,6 +1000,7 @@
             <option name="proportions">
               <list>
                 <option value="0.30229884" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
