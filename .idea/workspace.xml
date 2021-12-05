@@ -5,157 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/Java常用API/日期类.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/Java常用API/日期类.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/排序_快速排序.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/排序_快速排序.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/查找_二分.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/查找_二分.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_单链表.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_单链表.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_双链表.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_双链表.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_哈希表.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_哈希表.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_栈.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_栈.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_环形队列_数组.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_环形队列_数组.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_稀疏数组.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_稀疏数组.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_队列_数组.scala" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_队列_数组.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/Game.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/IO流类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/MyStudents.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/System类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/任务定时管理类$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/任务定时管理类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/包装类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/字符串.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/数学类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/数组所有方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/日期类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/正则表达式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/比较类Comparable和Comparator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/比较类Comparable和Comparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Java常用API/超级父类Object.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Lambda表达式/Lambda表达式所有方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Lambda表达式/MyTools.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/Lambda表达式/Teacher.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/StreamAPI/流Stream所有方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/java/point1_10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/剑指Offer算法题/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/剑指Offer算法题/TreeNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/剑指Offer算法题/数据结构.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/剑指Offer算法题/算法题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/力扣算法题/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/力扣算法题/数据结构.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/力扣算法题/算法题.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/aa面试题/力扣算法题/验算算法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/condition.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/BufferedRandomAccessFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/MyPropertiesUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_从windows到Linux复制.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_快速复制文件.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_统计行数.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_读取Excel写入Properties文件.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_递归修改名字.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/高效读取大文件.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/CalTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Houseware.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Hungry.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Hungry2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/IGoods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/IUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Lazy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/MyCalTime.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/MyInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/MySQLVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/MySql.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/NewIGoods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/NewIUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/NewMySQLVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/NewOracleVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Oracle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/OracleVersion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Proxy.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Saler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/SimpleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/SqlServer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/TV.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/UserManager.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/Worker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/动态代理设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/单例设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/工厂设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/模板设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/生产者和消费者设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/java设计模式/静态代理设计模式.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/反射/Print.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/反射/Singleton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/反射/反射的所有方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/Cook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/MyRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/TicketService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/Waiter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/Workbench.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/多线程实现方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/线程安全问题_售票.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程/线程通信问题_多生产者多消费者.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/annotation/HideAnn.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/annotation/HideCollection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/annotation/HideImg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/collection/ExtCollections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/BigFileReader$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/BigFileReader$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/BigFileReader$SliceReaderTask.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/BigFileReader$StartEndPair.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/BigFileReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/IFileHandle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/file/TestBigFileRead.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/image/Images.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/Base64s.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/Checks.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/Dates.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/IdCards$GenderEnum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/IdCards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/LogFormats$ObjectBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/LogFormats.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/Randoms.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/多线程解析大文件/pub/Strings.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/小设计/Cardioid.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/异常/异常.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/异常/自定义异常.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/MyClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/SubClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/Week.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/枚举15版本前.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/枚举15版本后.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/枚举和注解/自定义注解.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/算法java/排序_冒泡排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/算法java/排序_选择排序.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/算法java/查找_二分查找.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__CS一对一简单示例/客户端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__CS一对一简单示例/服务器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/FileUploadThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/客户端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端上传文件/服务端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/ClientMessageThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/客户端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多个客户端发单词逆转返回/服务端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/ClientMessageThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/Code.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/ReceiveThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/SendThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/客户端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/TCP编程__多人聊天/服务器.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/UDP变成__简单示例/发送端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/UDP变成__简单示例/接收端.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/网络编程/网络编程所有方法.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/集合/集合类.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/flink/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flink/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/kafka/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/src/main/java/基础所有方法/生产者.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/kafka/src/main/java/生产者.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml___jb_tmp___" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spark/spark.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -245,15 +95,17 @@
     <session id="569818683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.19" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="3" />
           <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -261,27 +113,27 @@
           <entry key="csv" value="1" />
           <entry key="dtd" value="2" />
           <entry key="html" value="1" />
-          <entry key="java" value="152" />
+          <entry key="java" value="153" />
           <entry key="md" value="2" />
           <entry key="properties" value="8" />
-          <entry key="scala" value="75" />
+          <entry key="scala" value="81" />
           <entry key="sh" value="4" />
           <entry key="sql" value="1" />
-          <entry key="txt" value="6" />
-          <entry key="xml" value="30" />
+          <entry key="txt" value="8" />
+          <entry key="xml" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="DTD" value="2" />
           <entry key="HTML" value="1" />
-          <entry key="JAVA" value="152" />
+          <entry key="JAVA" value="153" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="PLAIN_TEXT" value="19" />
           <entry key="Properties" value="8" />
           <entry key="SQL" value="1" />
           <entry key="Scala" value="75" />
-          <entry key="XML" value="30" />
+          <entry key="XML" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -303,7 +155,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -433,13 +285,13 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="flink" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="hadoop" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="976" />
@@ -465,30 +317,25 @@
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="0_文档及图片" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -496,21 +343,11 @@
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="flink" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aa面试题" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aa面试题" type="462c0819:PsiDirectoryNode" />
-              <item name="剑指Offer算法题" type="462c0819:PsiDirectoryNode" />
+              <item name="flink基础" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -521,7 +358,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638622263020" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638628623724" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mysqljdbc/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -529,7 +366,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30229884" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -567,6 +404,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Application.Cardioid">
+    <configuration name="自定义注解" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="枚举和注解.自定义注解" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="枚举和注解.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Cardioid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="小设计.Cardioid" />
       <module name="1_javabase" />
@@ -619,19 +469,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="自定义注解" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="枚举和注解.自定义注解" />
-      <module name="javabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="枚举和注解.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestEmPer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis" />
       <extension name="coverage">
@@ -655,6 +492,7 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootswaggerApplication" />
+      <item itemvalue="Application.自定义注解" />
       <item itemvalue="JUnit.TestEmPer" />
       <item itemvalue="Application.MyESUtil" />
       <item itemvalue="Application.MyPropertiesUtil" />
@@ -700,7 +538,9 @@
       <workItem from="1638447534400" duration="3046000" />
       <workItem from="1638503993166" duration="2085000" />
       <workItem from="1638520744322" duration="12173000" />
-      <workItem from="1638608992829" duration="5221000" />
+      <workItem from="1638608992829" duration="6628000" />
+      <workItem from="1638710390976" duration="100000" />
+      <workItem from="1638710504519" duration="258000" />
     </task>
     <task id="LOCAL-00001" summary="first create project">
       <created>1629703273415</created>
@@ -773,13 +613,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200412000" />
+    <option name="totallyTimeSpent" value="202177000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23507462" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.118336886" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -795,9 +634,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32850778" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.3275488" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -856,91 +695,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="git add new" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_队列_数组.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="24" column="22" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_哈希表.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="71" column="10" selection-start-line="71" selection-start-column="10" selection-end-line="71" selection-end-column="10" />
-          <folding>
-            <element signature="e#16#44#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/java/自定义sparkUDAF函数/resources/hive-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/java/自定义sparkUDAF函数/RegionTop3sku.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/java/自定义sparkUDAF函数/ProvinceRemark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="20" />
-          <folding>
-            <element signature="e#23#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark/src/main/resources/hive-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/Java常用API/日期类.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="106" column="36" selection-start-line="106" selection-start-column="25" selection-end-line="106" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/hbase/HbaseAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/convertor/DimensionConvertor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-323">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/BaseDimension.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/kv/CommDimension.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-190">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,9 +706,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -958,9 +713,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-236">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,9 +720,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-171">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -978,9 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-494">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -988,9 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-684">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -998,9 +741,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-146">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1008,9 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-798">
           <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1018,10 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#554#570#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1029,9 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-146">
           <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1039,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1121">
           <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1056,9 +783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1292">
           <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1066,9 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,9 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1086,10 +804,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
           <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#421#431#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1097,9 +811,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1114,9 +825,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1124,9 +832,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="87">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1139,26 +844,12 @@
     <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/controller/LoggerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java" />
+    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/controller/LoggerController.java" />
     <entry file="file://$PROJECT_DIR$/spark实时项目二(待完善)/src/main/resources/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#427#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,9 +857,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-122">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,13 +868,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="35" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1248,6 +929,54 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/0_文档及图片/4、端口号.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/FlinkConsumertoFileOrHdfs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-114">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/StreamWC.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/sensor.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/hello.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/BatchWC.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O1_source_operator_sink_udf_watermark.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O2_flink_window.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O3_processfunction_state_checkpoint.scala">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O4_tableapi.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
