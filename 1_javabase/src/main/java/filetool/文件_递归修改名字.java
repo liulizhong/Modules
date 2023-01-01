@@ -11,7 +11,7 @@ public class 文件_递归修改名字 {
     @Test
     public void reNameFile() throws Exception {
         reNameFiles(
-                new File("D:\\study\\bizdata_module\\21、实时项目(13day)\\"),
+                new File("D:\\1_java课程内容\\bizdata_module\\21、实时项目(13day)\\"),
                 "__",
                 "_");
 //        reNameFiles(new File("D:\\studyware\\bizdata_module\\10、李海波_Spark_JVM_Thread\\1、哔站大数据技术之spark基础\\4.视频\\00 - Spark之前视频排版补充"),

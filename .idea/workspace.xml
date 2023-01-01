@@ -4,6 +4,8 @@
     <list default="true" id="06d68a0c-9dc3-4fd6-a63b-9ccc0f161b13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_javabase/src/main/java/filetool/文件_递归修改名字.java" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/src/main/java/filetool/文件_递归修改名字.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_递归修改名字.class" beforeDir="false" afterPath="$PROJECT_DIR$/1_javabase/target/classes/filetool/文件_递归修改名字.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,51 +95,61 @@
     <session id="569818683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="19" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.19" value="1" />
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.20" value="3" />
+          <entry key="project.open.time.20" value="4" />
+          <entry key="project.open.time.21" value="2" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="class" value="1" />
           <entry key="csv" value="1" />
           <entry key="dtd" value="2" />
-          <entry key="html" value="1" />
-          <entry key="java" value="156" />
+          <entry key="html" value="4" />
+          <entry key="java" value="213" />
+          <entry key="kt" value="1" />
           <entry key="md" value="2" />
-          <entry key="properties" value="8" />
+          <entry key="properties" value="9" />
           <entry key="scala" value="82" />
-          <entry key="sh" value="4" />
+          <entry key="sh" value="8" />
           <entry key="sql" value="1" />
-          <entry key="txt" value="8" />
-          <entry key="xml" value="33" />
+          <entry key="txt" value="11" />
+          <entry key="xml" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="DTD" value="2" />
-          <entry key="HTML" value="1" />
-          <entry key="JAVA" value="156" />
+          <entry key="HTML" value="4" />
+          <entry key="JAVA" value="213" />
+          <entry key="Kotlin" value="1" />
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Properties" value="8" />
+          <entry key="PLAIN_TEXT" value="26" />
+          <entry key="Properties" value="9" />
           <entry key="SQL" value="1" />
           <entry key="Scala" value="76" />
-          <entry key="XML" value="33" />
+          <entry key="XML" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="187" />
+          <entry key="java" value="7706" />
           <entry key="scala" value="95" />
           <entry key="txt" value="20" />
           <entry key="xml" value="73" />
@@ -145,7 +157,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="187" />
+          <entry key="JAVA" value="7706" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Scala" value="95" />
           <entry key="XML" value="73" />
@@ -154,11 +166,49 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/0_文档及图片/1、Java-method.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="148">
+              <caret line="133" column="3" lean-forward="true" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组三角阵.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组杨辉三角.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/多维数组_语法.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="316">
+              <caret line="103" column="32" lean-forward="true" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
@@ -189,6 +239,11 @@
       <find>main</find>
       <find>ProvinceRemark</find>
       <find>province_remark</find>
+      <find>random</find>
+      <find>0</find>
+      <find>toUpperCase</find>
+      <find>exit</find>
+      <find>count</find>
     </findStrings>
     <replaceStrings>
       <replace>ageField</replace>
@@ -212,57 +267,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/offline/Application.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/offline/One_CategoryTop10Application.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/offline/Three_PageJumpFlowApplication.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/offline/Two_CategorySessionClickTop10Application.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/online/Four_TimeAdvClickTrendApplication.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/online/One_BlackListApplication.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/online/Three_DateAreaAdvCountTop3Application.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/project/online/Two_DateAreaCityAdvCountApplication.scala" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/sql/_5_汇总数据源.scala" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/PrestoTest.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/bean/DataOPCInfo.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/bean/OPCNameInfo.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/HiveTest.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/config/SwaggerConfig.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/HiveSideXmlClient.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/utils/HiveClient.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/controller/OpcDataController.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/pom.xml" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/UtilsSparkSC.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/UserController.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/bean/User.java" />
-        <option value="$PROJECT_DIR$/springbootswagger/src/main/java/com/xuexi/springbootswagger/tmp/OpcAlldetailController.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/冒泡怕爱旭.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/排序_快速排序.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/查找_二分.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_单链表.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_双链表.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_栈.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_环形队列_数组.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_稀疏数组.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_队列_数组.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/算法scala/结构_哈希表.scala" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/Java常用API/日期类.java" />
-        <option value="$PROJECT_DIR$/spark/src/main/java/自定义sparkUDAF函数/RegionTop3sku.scala" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/kv/BaseDimension.java" />
-        <option value="$PROJECT_DIR$/hbase项目/pom.xml" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/convertor/DimensionConvertor.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/mr/CountDurationDriver.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/mr/CountDurationMapper.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/mr/CountDurationReducer.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/hbaseanalyze/output/MySQLOutPutFormat.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/utils/HBaseDAO.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/utils/HBaseScanUtil.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/utils/HBaseUtil.java" />
-        <option value="$PROJECT_DIR$/hbase项目/src/main/java/utils/CalleeCoprocessor.java" />
         <option value="$PROJECT_DIR$/hbase项目/src/main/java/kafkaconsumer/HbaseScananAlyze.java" />
         <option value="$PROJECT_DIR$/hbase项目/src/main/java/kafkaconsumer/HBaseConsumer.java" />
         <option value="$PROJECT_DIR$/spark实时项目二/pom.xml" />
         <option value="$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/test.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01/Exer1_3.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01/数据类型测试.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/数据类型转换.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/键盘输入.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/算数运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/赋值运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/比较运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/逻辑运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/三元运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/位运算符.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02/练习题1_3.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03/流程控制语句.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03/流程控制_分支语句.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03/流程控制_if分支语句.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03/流程控制_switch分支语句.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_for循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_for循环_所有案例.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_while循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_while_do循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_while循环_所有案例.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_while$do循环_所有案例.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_dowhile循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环语句_foreach循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/循环案例_自由选择.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04/流程控制语句_跳转关键字_brak_continue.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01_数据类型/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_一维.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_声明_初始化_使用.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_语法.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_foreach循环.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_练习题.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习2_本年第几天.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_找最大.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_数组反转.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_冒泡排序.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习5_线性查找.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习6_二分查找.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习7_复制.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习8_工具类Arrays.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/多维数组_语法.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组三角阵.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组杨辉三角.java" />
       </list>
     </option>
   </component>
@@ -305,6 +360,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -312,34 +368,93 @@
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
               <item name="Modules" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="0_文档及图片" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
+              <item name="day05_数组" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Modules" type="462c0819:PsiDirectoryNode" />
+              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
+              <item name="day06_数组" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1638712568254" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1672581333370" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mysqljdbc/src/main/java" />
-    <property name="last_opened_file_path" value="D:/software/git/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.30229884" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workhouse\Modules\0_文档及图片" />
-      <recent name="D:\workhouse\Modules" />
-      <recent name="D:\workhouse\Modules\spark实时项目二\src\main\resources" />
-      <recent name="D:\workhouse\Modules\spark实时项目二\src\main\java" />
-      <recent name="D:\workhouse\Modules\hbase项目\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码" />
+      <recent name="D:\workhouse\Modules\0_文档及图片\drawio" />
+      <recent name="D:\workhouse\Modules\0_文档及图片\markdown" />
+      <recent name="C:\workhouse\Modules\mysqljdbc\src\main\java\oracle\druid工具类" />
+      <recent name="C:\workhouse\Modules\mysqljdbc\src\main\java\mysql\druid工具类" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xuexi.springbootswagger.bean" />
@@ -348,12 +463,12 @@
       <recent name="hdfs" />
       <recent name="mysql.druid工具类" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workhouse\Modules\0_文档及图片\drawio" />
-      <recent name="D:\workhouse\Modules\0_文档及图片\markdown" />
-      <recent name="C:\workhouse\Modules\mysqljdbc\src\main\java\oracle\druid工具类" />
-      <recent name="C:\workhouse\Modules\mysqljdbc\src\main\java\mysql\druid工具类" />
-      <recent name="C:\workhouse\Modules\kafka\src\main" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码" />
+      <recent name="D:\workhouse\Modules\0_文档及图片" />
+      <recent name="D:\workhouse\Modules" />
+      <recent name="D:\workhouse\Modules\spark实时项目二\src\main\resources" />
+      <recent name="D:\workhouse\Modules\spark实时项目二\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -368,13 +483,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PhoenixUtil">
-    <configuration name="Cardioid" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="小设计.Cardioid" />
-      <module name="1_javabase" />
+  <component name="RunManager" selected="Application.数组练习9_二维数组杨辉三角">
+    <configuration name="数组练习7_复制" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day06_数组.数组练习7_复制" />
+      <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="小设计.*" />
+          <option name="PATTERN" value="aaa课程代码.day06_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,12 +497,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InfluxdbQuery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="influxdb.InfluxdbQuery" />
-      <module name="influxdb" />
+    <configuration name="数组练习8_工具类Arrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day06_数组.数组练习8_工具类Arrays" />
+      <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="influxdb.*" />
+          <option name="PATTERN" value="aaa课程代码.day06_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,12 +510,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyESUtil" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="所有方法.MyESUtil" />
-      <module name="elasticsearch" />
+    <configuration name="数组练习9_二维数组三角阵" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day06_数组.数组练习9_二维数组三角阵" />
+      <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="所有方法.*" />
+          <option name="PATTERN" value="aaa课程代码.day06_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -408,12 +523,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyPropertiesUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="filetool.MyPropertiesUtil" />
-      <module name="1_javabase" />
+    <configuration name="数组练习9_二维数组杨辉三角" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day06_数组.数组练习9_二维数组杨辉三角" />
+      <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="filetool.*" />
+          <option name="PATTERN" value="aaa课程代码.day06_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -421,12 +536,64 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoenixUtil" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="hbase.PhoenixUtil" />
-      <module name="hbase" />
+    <configuration name="三元运算符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day02.三元运算符" />
+      <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hbase.*" />
+          <option name="PATTERN" value="aaa课程代码.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="位运算符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day02.位运算符" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aaa课程代码.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="赋值运算符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day02.赋值运算符" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aaa课程代码.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="数据类型测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day01.数据类型测试" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aaa课程代码.day01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="多维数组_语法" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day06_数组.多维数组_语法" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aaa课程代码.day06_数组.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -443,19 +610,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootswaggerApplication" />
-      <item itemvalue="Application.MyESUtil" />
-      <item itemvalue="Application.MyPropertiesUtil" />
-      <item itemvalue="Application.InfluxdbQuery" />
-      <item itemvalue="Application.Cardioid" />
-      <item itemvalue="Application.PhoenixUtil" />
+      <item itemvalue="Application.数组练习7_复制" />
+      <item itemvalue="Application.数组练习8_工具类Arrays" />
+      <item itemvalue="Application.多维数组_语法" />
+      <item itemvalue="Application.数组练习9_二维数组三角阵" />
+      <item itemvalue="Application.数组练习9_二维数组杨辉三角" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.PhoenixUtil" />
-        <item itemvalue="Application.Cardioid" />
-        <item itemvalue="Application.InfluxdbQuery" />
-        <item itemvalue="Application.MyPropertiesUtil" />
-        <item itemvalue="Application.MyESUtil" />
+        <item itemvalue="Application.数组练习9_二维数组杨辉三角" />
+        <item itemvalue="Application.数组练习9_二维数组三角阵" />
+        <item itemvalue="Application.多维数组_语法" />
+        <item itemvalue="Application.数组练习8_工具类Arrays" />
+        <item itemvalue="Application.数组练习7_复制" />
       </list>
     </recent_temporary>
   </component>
@@ -492,6 +659,16 @@
       <workItem from="1638710390976" duration="100000" />
       <workItem from="1638710504519" duration="1807000" />
       <workItem from="1638712332936" duration="484000" />
+      <workItem from="1668605621472" duration="1007000" />
+      <workItem from="1670505832026" duration="611000" />
+      <workItem from="1672059304679" duration="815000" />
+      <workItem from="1672146215754" duration="4291000" />
+      <workItem from="1672233182930" duration="3814000" />
+      <workItem from="1672319231750" duration="3530000" />
+      <workItem from="1672398910064" duration="594000" />
+      <workItem from="1672476761064" duration="11902000" />
+      <workItem from="1672495449692" duration="40000" />
+      <workItem from="1672558678846" duration="12133000" />
     </task>
     <task id="LOCAL-00001" summary="first create project">
       <created>1629703273415</created>
@@ -539,9 +716,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="流Stream所有方法_test4 - 2021.09.06 at 15h 12m 52s.xml">
-      <configuration name="流Stream所有方法.test4" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="流Stream所有方法_test4 - 2021.09.06 at 15h 13m 33s.xml">
       <configuration name="流Stream所有方法.test4" configurationId="JUnit" />
     </history-entry>
@@ -569,14 +743,27 @@
     <history-entry file="TestEmPer - 2021.09.07 at 11h 15m 56s.xml">
       <configuration name="TestEmPer" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="反射的所有方法_test5 - 2022.11.16 at 21h 43m 52s.xml">
+      <configuration name="反射的所有方法.test5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="204210000" />
+    <option name="totallyTimeSpent" value="242947000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19616205" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -585,19 +772,19 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37639198" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38530067" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32962137" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32814237" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32739422" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32739422" />
-      <window_info anchor="bottom" id="Spring" order="12" />
-      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Spring" order="12" weight="0.32962137" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32962137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -654,176 +841,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="git add allnewsys" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/mr/CountDurationDriver.java">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/First.class" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/First.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/hello.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/test.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/BiaoShiFu.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/HelloWorld.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-494">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="-155">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/mr/CountDurationMapper.java">
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、jpsall.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/mr/CountDurationReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/hbaseanalyze/output/MySQLOutPutFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-798">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/kafkaconsumer/HBaseConsumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/kafkaconsumer/HbaseScananAlyze.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/producer/ProduceLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1121">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/Contant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/CalleeCoprocessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="19" selection-start-line="68" selection-start-column="19" selection-end-line="68" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/HBaseDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/HBaseFilterUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/HBaseScanUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="44" column="27" selection-start-line="44" selection-start-column="27" selection-end-line="44" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/HBaseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/JDBCUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/LRUCache.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/java/utils/PropertiesUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/resources/hbase-site.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/resources/kafka.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hbase离线项目一/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java" />
-    <entry file="file://$PROJECT_DIR$/spark实时项目二/src/main/java/gmall2020_logger/src/main/java/com/xuexi/gmall/controller/LoggerController.java" />
-    <entry file="file://$PROJECT_DIR$/spark实时项目二(待完善)/src/main/resources/gmall2020_logger/src/main/java/com/xuexi/gmall/publisher/Gmall2020PublisherApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark实时项目二(待完善)/src/main/resources/gmall2020_logger/src/main/java/com/xuexi/gmall/controller/LoggerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-122">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spark实时项目二(待完善)/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/markdown/安全监测数据.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aa面试题/剑指Offer算法题/算法题.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/1、Java-method.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4161">
-          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        <state relative-caret-position="38">
+          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0_文档及图片/1、各框架常用shell命令.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、jpsall.sh">
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、xsync.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
@@ -837,108 +882,283 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、xsync.sh">
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、从零开始搭apache集群.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1843">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、关键字.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、端口号.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" lean-forward="true" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、zk_hdfs_yarn_jobhistory-start.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/2、zk_hdfs_yarn_jobhistory-start.sh">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01_数据类型/数据类型测试.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="21" lean-forward="true" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01_数据类型/练习.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/数据类型转换.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="76" column="52" lean-forward="true" selection-start-line="76" selection-start-column="52" selection-end-line="76" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/赋值运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/算数运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/逻辑运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/比较运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/三元运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/位运算符.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="65" column="14" selection-start-line="65" selection-start-column="14" selection-end-line="65" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/键盘输入.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="23" column="15" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day02_运算符/练习题1_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03_流程控制/流程控制_if分支语句.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day03_流程控制/流程控制_switch分支语句.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="430">
+          <caret line="126" column="31" selection-start-line="126" selection-start-column="31" selection-end-line="126" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_for循环_所有案例.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="40" column="54" lean-forward="true" selection-start-line="39" selection-end-line="40" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_while循环_所有案例.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、从零开始搭apache集群.txt">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_for循环.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-627" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、关键字.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/4、端口号.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="30" lean-forward="true" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+        <state relative-caret-position="684">
+          <caret line="36" column="23" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/0_文档及图片/pom.xml">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_while循环.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-114" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/StreamWC.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/sensor.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/hello.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/wordcount/BatchWC.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2278" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O2_flink_window.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O3_processfunction_state_checkpoint.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O4_tableapi.scala">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/sadfa.java" />
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/FlinkConsumertoFileOrHdfs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="646">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flink/src/main/java/flink基础/O1_source_operator_sink_udf_watermark.scala">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_whiledo循环.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="646">
+          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/hbase/PhoenixUtil.scala">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环案例_自由选择.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-          <folding>
-            <element signature="e#15#99#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="483">
+          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hbase/src/main/java/hbase/HbaseAPI.java">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/流程控制语句_跳转关键字_brak_continue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3271">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/小设计/Cardioid.java">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01_数据类型/HelloWorld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        <state relative-caret-position="190">
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_声明_初始化_使用.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="32" selection-start-line="32" selection-end-line="34" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_语法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习2_本年第几天.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习4_冒泡排序.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习3_数组反转.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习1_找最大.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_foreach循环.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="52" column="9" lean-forward="true" selection-start-line="52" selection-start-column="9" selection-end-line="52" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习6_二分查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习5_线性查找.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习8_工具类Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习7_复制.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-106">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/0_文档及图片/1、Java-method.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="133" column="3" lean-forward="true" selection-start-line="133" selection-start-column="3" selection-end-line="133" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组三角阵.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/多维数组_语法.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="103" column="32" lean-forward="true" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习9_二维数组杨辉三角.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="36" column="35" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -971,7 +1191,7 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>scala-sdk-2.11.8 (2)</last-edited>
+          <last-edited>scala-sdk-2.11.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
