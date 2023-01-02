@@ -29,7 +29,7 @@ import java.util.Arrays;
  * <p>
  * （5）如何表示总行数、每一行的列数、每一个元素怎么表示
  */
-public class 数组练习9_二维数组杨辉三角 {
+public class 数组练习10_二维数组杨辉三角 {
     public static void main(String[] args) {
         int[][] arrs = new int[10][];
         arrs[0] = new int[]{1};
