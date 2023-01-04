@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="06d68a0c-9dc3-4fd6-a63b-9ccc0f161b13" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0_文档及图片/1、Java-method.html" beforeDir="false" afterPath="$PROJECT_DIR$/0_文档及图片/1、Java-method.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -93,7 +92,7 @@
     <session id="569818683">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.17" value="1" />
@@ -101,7 +100,7 @@
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.20" value="4" />
-          <entry key="project.open.time.21" value="3" />
+          <entry key="project.open.time.21" value="4" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="1" />
@@ -110,7 +109,7 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -119,7 +118,7 @@
           <entry key="csv" value="1" />
           <entry key="dtd" value="2" />
           <entry key="html" value="4" />
-          <entry key="java" value="263" />
+          <entry key="java" value="284" />
           <entry key="kt" value="1" />
           <entry key="md" value="2" />
           <entry key="properties" value="9" />
@@ -135,7 +134,7 @@
           <entry key="CLASS" value="1" />
           <entry key="DTD" value="2" />
           <entry key="HTML" value="4" />
-          <entry key="JAVA" value="263" />
+          <entry key="JAVA" value="284" />
           <entry key="Kotlin" value="1" />
           <entry key="Markdown" value="2" />
           <entry key="PLAIN_TEXT" value="26" />
@@ -148,7 +147,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="45" />
-          <entry key="java" value="9703" />
+          <entry key="java" value="11146" />
           <entry key="scala" value="95" />
           <entry key="txt" value="20" />
           <entry key="xml" value="73" />
@@ -157,7 +156,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="45" />
-          <entry key="JAVA" value="9703" />
+          <entry key="JAVA" value="11146" />
           <entry key="PLAIN_TEXT" value="20" />
           <entry key="Scala" value="95" />
           <entry key="XML" value="73" />
@@ -167,42 +166,83 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/0_文档及图片/1、Java-method.html">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/util/CMUtility.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="254">
+              <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/练习题2_继承/Employee.java">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/bean/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="57">
+              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
               <folding>
-                <element signature="e#252#253#0" expanded="true" />
-                <element signature="e#270#271#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#510#511#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#555#556#0" expanded="true" />
+                <element signature="e#591#592#0" expanded="true" />
+                <element signature="e#614#615#0" expanded="true" />
+                <element signature="e#641#642#0" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#699#700#0" expanded="true" />
+                <element signature="e#726#727#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="true" />
+                <element signature="e#818#819#0" expanded="true" />
+                <element signature="e#846#847#0" expanded="true" />
+                <element signature="e#865#866#0" expanded="true" />
+                <element signature="e#903#904#0" expanded="true" />
+                <element signature="e#928#929#0" expanded="true" />
+                <element signature="e#956#957#0" expanded="true" />
+                <element signature="e#975#976#0" expanded="true" />
+                <element signature="e#1013#1014#0" expanded="true" />
+                <element signature="e#1038#1039#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/练习题2_继承/Manager.java">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/view/CustomerView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="152">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+              <folding>
+                <element signature="method#menu#0;class#CustomerView#0" />
+                <element signature="method#list#0;class#CustomerView#0" />
+                <element signature="method#delete#0;class#CustomerView#0" />
+                <element signature="method#update#0;class#CustomerView#0" />
+                <element signature="e#2809#2832#0" />
+                <element signature="method#add#0;class#CustomerView#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBook.java">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="46" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="57">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+              <folding>
+                <element signature="e#362#363#0" expanded="true" />
+                <element signature="e#395#396#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/test/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -275,14 +315,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_一维.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_声明_初始化_使用.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_语法.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_foreach循环.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_练习题.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习2_本年第几天.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_找最大.java" />
-        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_数组反转.java" />
         <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组_冒泡排序.java" />
         <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习5_线性查找.java" />
         <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day06_数组/数组练习6_二分查找.java" />
@@ -326,6 +358,14 @@
         <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/练习题2_继承/Employee.java" />
         <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBook.java" />
         <option value="$PROJECT_DIR$/0_文档及图片/1、Java-method.html" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/test/Test.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/test/CustomerTest1.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/bean/Customer.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/service/CustomerService.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/view/CustomerView.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/bean/Customer.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/view/CustomerView.java" />
+        <option value="$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/service/CustomerService.java" />
       </list>
     </option>
   </component>
@@ -355,8 +395,7 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="618" />
     <option name="width" value="976" />
     <option name="height" value="1056" />
   </component>
@@ -424,7 +463,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
+              <item name="day11_项目2家庭收支管理" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
@@ -434,63 +473,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="exer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="field" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="field" type="462c0819:PsiDirectoryNode" />
-              <item name="TestFieldInitial.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Modules" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Modules" type="462c0819:PsiDirectoryNode" />
-              <item name="1_javabase" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
+              <item name="day11_项目2家庭收支管理" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -501,8 +484,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="aaa课程代码" type="462c0819:PsiDirectoryNode" />
-              <item name="day10_封装继承多态" type="462c0819:PsiDirectoryNode" />
-              <item name="练习题2_继承" type="462c0819:PsiDirectoryNode" />
+              <item name="day11_项目2家庭收支管理" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -514,7 +497,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1672755598566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1672842669041" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/mysqljdbc/src/main/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -525,12 +508,12 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day10_封装继承多态" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day11_项目2家庭收支管理" />
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day10_封装继承多态\练习题2_继承" />
       <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码" />
-      <recent name="D:\workhouse\Modules\0_文档及图片" />
-      <recent name="D:\workhouse\Modules" />
-      <recent name="D:\workhouse\Modules\spark实时项目二\src\main\resources" />
+      <recent name="D:\workhouse\Modules\0_文档及图片\drawio" />
+      <recent name="D:\workhouse\Modules\0_文档及图片\markdown" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xuexi.springbootswagger.bean" />
@@ -539,12 +522,12 @@
       <recent name="hdfs" />
       <recent name="mysql.druid工具类" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day10_封装继承多态\练习题2_继承" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day11_项目2家庭收支管理" />
+      <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码\day10_封装继承多态" />
       <recent name="D:\workhouse\Modules\1_javabase\src\main\java\aaa课程代码" />
-      <recent name="D:\workhouse\Modules\0_文档及图片\drawio" />
-      <recent name="D:\workhouse\Modules\0_文档及图片\markdown" />
-      <recent name="C:\workhouse\Modules\mysqljdbc\src\main\java\oracle\druid工具类" />
+      <recent name="D:\workhouse\Modules\0_文档及图片" />
+      <recent name="D:\workhouse\Modules" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -559,9 +542,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestExam">
-    <configuration name="方法练习题2_形参实参_String类型不可变性" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day08_面向对象基础.方法练习题2_形参实参_String类型不可变性" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="方法练习题4_方法重载" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day08_方法.方法练习题4_方法重载" />
       <module name="javabase" />
       <extension name="coverage">
         <pattern>
@@ -573,12 +556,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="方法练习题4_方法重载" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day08_方法.方法练习题4_方法重载" />
+    <configuration name="CustomerTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day11_项目2家庭收支管理.项目2_家庭收支项目.test.CustomerTest1" />
       <module name="javabase" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aaa课程代码.day08_方法.*" />
+          <option name="PATTERN" value="aaa课程代码.day11_项目2家庭收支管理.项目2_家庭收支项目.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day11_项目2家庭收支管理.test.Test" />
+      <module name="javabase" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="aaa课程代码.day11_项目2家庭收支管理.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -599,38 +595,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="赋值运算符" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day02.赋值运算符" />
-      <module name="javabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aaa课程代码.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="数据类型测试" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="aaa课程代码.day01.数据类型测试" />
       <module name="javabase" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="aaa课程代码.day01.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="类_成员2_方法的重载" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aaa课程代码.day08_方法.类_成员2_方法的重载" />
-      <module name="javabase" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="aaa课程代码.day08_方法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -660,19 +630,19 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringbootswaggerApplication" />
-      <item itemvalue="Application.方法练习题2_形参实参_String类型不可变性" />
-      <item itemvalue="Application.类_成员2_方法的重载" />
       <item itemvalue="Application.方法练习题4_方法重载" />
       <item itemvalue="Application.关键字return" />
       <item itemvalue="Application.TestExam" />
+      <item itemvalue="Application.CustomerTest1" />
+      <item itemvalue="Application.Test" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.CustomerTest1" />
         <item itemvalue="Application.TestExam" />
         <item itemvalue="Application.关键字return" />
         <item itemvalue="Application.方法练习题4_方法重载" />
-        <item itemvalue="Application.类_成员2_方法的重载" />
-        <item itemvalue="Application.方法练习题2_形参实参_String类型不可变性" />
       </list>
     </recent_temporary>
   </component>
@@ -720,7 +690,8 @@
       <workItem from="1672495449692" duration="40000" />
       <workItem from="1672558678846" duration="13531000" />
       <workItem from="1672633485599" duration="13578000" />
-      <workItem from="1672750464090" duration="3866000" />
+      <workItem from="1672750464090" duration="4102000" />
+      <workItem from="1672836982297" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="first create project">
       <created>1629703273415</created>
@@ -800,7 +771,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="261789000" />
+    <option name="totallyTimeSpent" value="267655000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -813,9 +784,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20042644" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20255864" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -825,7 +795,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32962137" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.38530067" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34855235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -863,63 +833,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="git add allnewsys" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_while循环_所有案例.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_for循环.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_while循环.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环语句_whiledo循环.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/循环案例_自由选择.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="151" column="46" selection-start-line="151" selection-start-column="46" selection-end-line="151" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day04_循环/流程控制语句_跳转关键字_brak_continue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day01_数据类型/HelloWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_声明_初始化_使用.java" />
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/一维数组_语法.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="96" column="5" lean-forward="true" selection-start-line="96" selection-start-column="5" selection-end-line="96" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day05_数组/数组练习2_本年第几天.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1140,67 +1053,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/bean/Box.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="46" column="31" lean-forward="true" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
-          <folding>
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#504#505#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#710#711#0" expanded="true" />
-            <element signature="e#730#731#0" expanded="true" />
-            <element signature="e#770#771#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#1007#1008#0" expanded="true" />
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBox.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/bean/Book.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestVariable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestExam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" lean-forward="true" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestFieldInitial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/bean/Box.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBox.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/bean/Book.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestVariable.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestExam.java" />
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/field/TestFieldInitial.java" />
     <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/练习题1_属性赋值.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -1208,10 +1066,11 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBook.java" />
     <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/练习题2_继承/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
           <folding>
             <element signature="e#252#253#0" expanded="true" />
             <element signature="e#270#271#0" expanded="true" />
@@ -1226,17 +1085,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day10_封装继承多态/test/TestBook.java">
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/bean/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="46" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="46" />
+        <state relative-caret-position="152">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/test/CustomerTest1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#377#378#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/项目2_家庭收支项目/view/CustomerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="149" column="9" lean-forward="true" selection-start-line="149" selection-start-column="9" selection-end-line="149" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/0_文档及图片/1、Java-method.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        <state relative-caret-position="76">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/util/CMUtility.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="84" lean-forward="true" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/bean/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+          <folding>
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#510#511#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+            <element signature="e#641#642#0" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#699#700#0" expanded="true" />
+            <element signature="e#726#727#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="true" />
+            <element signature="e#818#819#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+            <element signature="e#865#866#0" expanded="true" />
+            <element signature="e#903#904#0" expanded="true" />
+            <element signature="e#928#929#0" expanded="true" />
+            <element signature="e#956#957#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+            <element signature="e#1013#1014#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/view/CustomerView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="method#menu#0;class#CustomerView#0" />
+            <element signature="method#list#0;class#CustomerView#0" />
+            <element signature="method#delete#0;class#CustomerView#0" />
+            <element signature="method#update#0;class#CustomerView#0" />
+            <element signature="e#2809#2832#0" />
+            <element signature="method#add#0;class#CustomerView#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/service/CustomerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#395#396#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1_javabase/src/main/java/aaa课程代码/day11_项目2家庭收支管理/test/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
